@@ -1,0 +1,5 @@
+* Add all regions to back popup
+* Add timer to autoupdate
+* Replace scollArea with edge-to-edge lists (?)
+* Make icon and preview
+* Change color scheme

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Breakpoints</key>
+	<dict>
+		<key>mtbcalendar_multifeed.js:138</key>
+		<string>-showFront</string>
+		<key>mtbcalendar_multifeed.js:140</key>
+		<string>-showFront</string>
+		<key>mtbcalendar_multifeed.js:168</key>
+		<string>-</string>
+		<key>mtbcalendar_multifeed.js:176</key>
+		<string>-</string>
+		<key>mtbcalendar_multifeed.js:27</key>
+		<string>-parseRaces</string>
+	</dict>
+	<key>ContentSplitViewGeometry</key>
+	<dict>
+		<key>ContentSplitViewConfig</key>
+		<integer>8</integer>
+		<key>SplitViewConfig</key>
+		<integer>3</integer>
+		<key>_collapsingFrameDimension</key>
+		<real>0.0</real>
+		<key>_indexOfCollapsedView</key>
+		<integer>0</integer>
+		<key>_percentageOfCollapsedView</key>
+		<real>0.0</real>
+		<key>sizes</key>
+		<array>
+			<string>{{0, 0}, {736, 402}}</string>
+			<string>{{0, 412}, {736, 264}}</string>
+		</array>
+	</dict>
+	<key>ContentViewType</key>
+	<integer>0</integer>
+	<key>Dashboard Widget Prefs</key>
+	<dict>
+		<key>id</key>
+		<string>97ad252d64c2ad41</string>
+		<key>in-layer</key>
+		<true/>
+		<key>path</key>
+		<string>/private/var/folders/dN/dNhBWTjkEzyfNST2KobG8U+++TM/-Tmp-/Dashcode/.mtbcalendar_multifeed.wdgtproja6p0hS/mtbcalendar_multifeed.wdgtproj/project.wdgt/</string>
+		<key>percent-offset-x</key>
+		<integer>9</integer>
+		<key>percent-offset-y</key>
+		<integer>0</integer>
+		<key>percent-type</key>
+		<integer>3</integer>
+		<key>percent-x</key>
+		<real>0.0</real>
+		<key>percent-y</key>
+		<real>0.0024999999441206455</real>
+		<key>pos-x</key>
+		<integer>1009</integer>
+		<key>pos-y</key>
+		<integer>418</integer>
+		<key>rosetta</key>
+		<false/>
+	</dict>
+	<key>DeploymentOptions</key>
+	<dict>
+		<key>Account</key>
+		<string>file://localhost/Users/kpepple/Sites/</string>
+		<key>WidgetCompatibilityTag</key>
+		<integer>0</integer>
+		<key>WidgetDeployName</key>
+		<string>mtbcalendar</string>
+	</dict>
+	<key>Design time language</key>
+	<string>en.lproj</string>
+	<key>EvaluatorFrame</key>
+	<string>603 215 503 563 0 0 1280 778 </string>
+	<key>MainSplitViewGeometry</key>
+	<dict>
+		<key>_collapsingFrameDimension</key>
+		<real>0.0</real>
+		<key>_indexOfCollapsedView</key>
+		<integer>0</integer>
+		<key>_percentageOfCollapsedView</key>
+		<real>0.0</real>
+		<key>sizes</key>
+		<array>
+			<string>{{0, 0}, {244, 697}}</string>
+			<string>{{245, 0}, {737, 697}}</string>
+		</array>
+	</dict>
+	<key>MainWindowFrame</key>
+	<string>37 60 981 718 0 0 1280 778 </string>
+	<key>NavigatorSplitViewGeometry</key>
+	<dict>
+		<key>ContentSplitViewConfig</key>
+		<integer>5</integer>
+		<key>SplitViewConfig</key>
+		<integer>3</integer>
+		<key>_collapsingFrameDimension</key>
+		<real>0.0</real>
+		<key>_indexOfCollapsedView</key>
+		<integer>0</integer>
+		<key>_percentageOfCollapsedView</key>
+		<real>0.0</real>
+		<key>sizes</key>
+		<array>
+			<string>{{0, 0}, {246, 391}}</string>
+			<string>{{0, 401}, {246, 275}}</string>
+		</array>
+	</dict>
+	<key>Objects view expanded items</key>
+	<array>
+		<array>
+			<integer>0</integer>
+		</array>
+		<array>
+			<integer>0</integer>
+			<integer>0</integer>
+		</array>
+		<array>
+			<integer>0</integer>
+			<integer>1</integer>
+		</array>
+		<array>
+			<integer>0</integer>
+			<integer>0</integer>
+			<integer>5</integer>
+		</array>
+		<array>
+			<integer>0</integer>
+			<integer>0</integer>
+			<integer>5</integer>
+			<integer>0</integer>
+		</array>
+		<array>
+			<integer>0</integer>
+			<integer>0</integer>
+			<integer>5</integer>
+			<integer>0</integer>
+			<integer>0</integer>
+		</array>
+		<array>
+			<integer>0</integer>
+			<integer>0</integer>
+			<integer>5</integer>
+			<integer>0</integer>
+			<integer>0</integer>
+			<integer>0</integer>
+		</array>
+	</array>
+	<key>Objects view last selections</key>
+	<array/>
+	<key>Opened Steps</key>
+	<array/>
+	<key>Visible StackLayout Views</key>
+	<array>
+		<string>front</string>
+	</array>
+</dict>
+</plist>
