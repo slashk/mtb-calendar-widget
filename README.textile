@@ -4,5 +4,6 @@ This is a little widget which lets you see regional MTB race calendars from
 the "mtbcalendar.com":http://www.mtbcalendar.com/
 
 h3. Usage
+
 This widget will allow you to see upcoming MTB events that have been entered
 on the mtbcalendar.com site.
