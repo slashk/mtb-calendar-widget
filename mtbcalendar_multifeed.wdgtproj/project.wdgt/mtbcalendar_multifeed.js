@@ -20,14 +20,18 @@ function parseEvents(events) {
     var baseurl = "http://www.mtbcalendar.com/events/";
     var eventTemplate = new Template('#{newDate}: <span onclick=\'widget.openURL("#{calendarURL}")\'>#{name}</span> (#{state})<br />');
 
-    events.each(function(event) {
-        splitdate = event.start_date.split("/");
-        // gives us 01/15/09 format
-		event.newDate = splitdate[1]+'/'+splitdate[2]+'/'+splitdate[0].replace(/^20/,""); 
-        event.calendarURL = baseurl + event.id + '-' + event.permalink;
-        outputHTML += eventTemplate.evaluate(event);         
-    });
-
+    if (events.length > 0) {
+        events.each(function(event) {
+            splitdate = event.start_date.split("/");
+            // gives us 01/15/09 format
+            event.newDate = splitdate[1]+'/'+splitdate[2]+'/'+splitdate[0].replace(/^20/,""); 
+            event.calendarURL = baseurl + event.id + '-' + event.permalink;
+            outputHTML += eventTemplate.evaluate(event);         
+        });
+    } else {
+        outputHTML = "No upcoming events. Visit <span style=\"color:red;\" onclick=\'widget.openURL(\"http://www.mtbcalendar.com\")\'>MTB Calendar</span> and enter your events.";
+    }
+    
 	// updating scrollarea
 	$("content").innerHTML = outputHTML;
 	$("scrollArea").object.refresh();
@@ -35,7 +39,6 @@ function parseEvents(events) {
 
 // update preferences and front page regionName on change
 function updateRegionChoice() {
-    //feedURL = popup.value;
     savePreferences("region", popup.value);
     $("regionName").innerHTML = popup[popup.selectedIndex].text;
 }
