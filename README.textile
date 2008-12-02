@@ -29,7 +29,7 @@ front panel and it will take you to the appropriate page on the
 "MTB Calendar":http://www.mtbcalendar.com/ website.
 
 h3. Preview
-!/html/preview_v02.png!
+!html/preview_v02.png!
 
 
 h3. Source 
