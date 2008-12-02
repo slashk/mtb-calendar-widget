@@ -1,7 +1,7 @@
 h2. MTBcalendar OSX Dashboard Widget
 
 This is a little widget which lets you see regional MTB race calendars from 
-the "MTB Calendar":http://www.mtbcalendar.com/
+the "MTB Calendar":http://www.mtbcalendar.com/ website.
 
 h3. Installation
 
