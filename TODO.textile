@@ -1,5 +1,5 @@
-* Add all regions to back popup
+.h2 Primary Fixes
+
 * Add timer to autoupdate
-* Replace scollArea with edge-to-edge lists (?)
 * Make icon and preview
 * Change color scheme
