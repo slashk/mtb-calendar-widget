@@ -1,9 +1,26 @@
 h2. MTBcalendar OSX Dashboard Widget
 
 This is a little widget which lets you see regional MTB race calendars from 
-the "mtbcalendar.com":http://www.mtbcalendar.com/
+the "MTB Calendar":http://www.mtbcalendar.com/
 
-h3. Usage
+h3. Configuration and Usage
 
 This widget will allow you to see upcoming MTB events that have been entered
 on the mtbcalendar.com site.
+
+The only preference setting on this widget is accessible via the back panel 
+(click the (i) icon in the lower right hand corner to show). It is a pulldown 
+menu which lists different regions so that you can find races closest to where 
+you live. It defaults to "Northern California" (_hells yeah_) but you can set 
+it to any region you choose. The regions are mostly small cluster of states, 
+but some states are split (like California).
+
+To see more details about any race event, simply click on the events name on the 
+front panel and it will take you to the appropriate page on the 
+"MTB Calendar":http://www.mtbcalendar.com/ website.
+
+h3. Source 
+
+This widget was created with Apple's "Dashcode":http://www.apple.com/macosx/developertools/dashcode.html
+and follows most of it's setup conventions. However, I have added "Prototype javascript library":http://www.prototypejs.org/ 
+ (version 1.6.0.3).
