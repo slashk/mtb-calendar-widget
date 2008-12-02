@@ -30,6 +30,7 @@ a {
     height: 13px;
     top: 349px;
     left: 246px;
+    opacity: 1;
 }
 
 #back {
@@ -88,14 +89,15 @@ a {
 
 #title {
     position: absolute;
-    font-family: HelveticaNeue;
     text-overflow: ellipsis;
     overflow: hidden;
-    font-size: 19pt;
     left: 33px;
     color: rgb(255, 255, 255);
     top: 16px;
-    text-shadow: rgb(191, 191, 191) 0px 0px 0px;
+    font-weight: bold;
+    font-family: 'Helvetica Neue';
+    font-size: 19pt;
+    text-shadow: rgb(191, 191, 191) 1px 1px 0px;
 }
 
 #bottomRectangleShape {
@@ -109,7 +111,6 @@ a {
 #scrollArea {
     position: absolute;
     font-family: HelveticaNeue;
-    font-size: 10pt;
     top: 47px;
     margin-left: 5px;
     height: 298px;
@@ -117,6 +118,7 @@ a {
     left: 7px;
     background-color: rgb(255, 255, 255);
     color: rgb(25, 53, 11);
+    font-size: 10pt;
 }
 
 #option {
@@ -190,4 +192,18 @@ a {
     font-weight: bold;
     font-family: 'Helvetica Neue';
     font-size: 10pt;
+}
+
+#regionName {
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    width: auto;
+    height: auto;
+    top: 349px;
+    left: 33px;
+    color: rgb(255, 255, 255);
 }

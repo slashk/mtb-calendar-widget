@@ -30,21 +30,22 @@
         <div apple-part="com.apple.Dashcode.part.text" class="apple-text apple-no-children" apple-default-image-visibility="hidden" apple-text-overflow="ellipsis" id="title" apple-group="text" apple-style="part-width-dependent: true;part-height-dependent: true;"></div>
         <div apple-part="com.apple.Dashcode.part.scrollarea" class="apple-scrollarea" id="scrollArea" apple-group="scrollArea">
             <div id="content" class="content" apple-group="scrollArea" style="position: absolute; left: 4px; top: 0px; right: 22px; bottom: 0px; overflow-x: hidden; overflow-y: hidden; "></div></div>
+        <div apple-part="com.apple.Dashcode.part.text" class="apple-text apple-no-children" apple-default-image-visibility="hidden" apple-text-overflow="ellipsis" id="regionName" apple-style="part-width-dependent: true;part-height-dependent: true;"></div>
     </div>
     <div id="back">
         <img id="backImg" src="Images/back.png" alt="" apple-locked="true" apple-part="com.apple.Dashcode.part.backimage" apple-style=" image-radius: 12,12,12,12; image-border: 1; image-border-color: 0.1500,0.1500,0.1500; image-border-width: 3; shadow-include-shadow: 1; shadow-blur: 9.00; shadow-offset: -1.00,-6.00; shadow-color: 0.0000,0.0000,0.0000,0.3333;">
         <img src="Images/DevelopedWith.png" alt="Created with Dashcode" id="backDevelopedWith">
         <div id="done" class="apple-no-children" apple-part="com.apple.Dashcode.part.glassbutton"></div>
-        <select apple-part="com.apple.Dashcode.part.backpopupbutton" id="popup" apple-group="popup">
+        <select apple-part="com.apple.Dashcode.part.backpopupbutton" id="popup" apple-group="popup" name="Region" onchange="updateRegionChoice(event)">
             <option id="option7" value="http://www.mtbcalendar.com/tags/Canada.json?future=1">Canada</option>
             <option id="option5" value="http://www.mtbcalendar.com/tags/Central.json?future=1">Central</option>
             <option id="option3" value="http://www.mtbcalendar.com/tags/Mountain.json?future=1">Mountain</option>
-            <option apple-group="popup" value="http://www.mtbcalendar.com/tags/norcal.json?future=1">Northern California</option>
+            <option apple-group="popup" value="http://www.mtbcalendar.com/tags/norcal.json?future=1" selected="selected">Northern California</option>
             <option id="option6" value="http://www.mtbcalendar.com/tags/Northwest.json?future=1">Northwest</option>
             <option id="option2" value="http://www.mtbcalendar.com/tags/Northeast.json?future=1">Northeast</option>
             <option id="option4" value="http://www.mtbcalendar.com/tags/South%20Central.json?future=1">South Central</option>
             <option id="option" value="http://www.mtbcalendar.com/tags/socal.json?future=1">Southern California</option>
-            <option id="option8" value="http://www.mtbcalendar.com/tags/Southeast.json&amp;future=1">Southeast</option>
+            <option id="option8" value="http://www.mtbcalendar.com/tags/Southeast.json?future=1">Southeast</option>
             <option id="option1" value="http://www.mtbcalendar.com/tags/Southwest.json?future=1">Southwest</option>
         </select>
         <div apple-part="com.apple.Dashcode.part.text" class="apple-text apple-no-children" apple-default-image-visibility="hidden" apple-text-overflow="ellipsis" id="text"></div>
