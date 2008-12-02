@@ -1,5 +1,7 @@
-.h2 Primary Fixes
+.h2 Primary Fixes for Next Release (v0.3)
 
 * Add timer to autoupdate
-* Make icon and preview
 * Change color scheme
+* Complete the region categories
+* Add text to identify current region
+* Make "empty lists" more friendly 

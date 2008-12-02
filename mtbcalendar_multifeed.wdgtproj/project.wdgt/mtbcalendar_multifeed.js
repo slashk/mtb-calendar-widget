@@ -29,7 +29,7 @@ function parseEvents(events) {
             outputHTML += eventTemplate.evaluate(event);         
         });
     } else {
-        outputHTML = "No upcoming events. Visit <span style=\"color:red;\" onclick=\'widget.openURL(\"http://www.mtbcalendar.com\")\'>MTB Calendar</span> and enter your events.";
+        outputHTML = "No upcoming events. Visit <span style=\"color:red;\" onclick=\'widget.openURL(\"http://www.mtbcalendar.com\")\'>MTB Calendar</span> and add your events.";
     }
     
 	// updating scrollarea
