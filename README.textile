@@ -3,6 +3,15 @@ h2. MTBcalendar OSX Dashboard Widget
 This is a little widget which lets you see regional MTB race calendars from 
 the "MTB Calendar":http://www.mtbcalendar.com/
 
+h3. Installation
+
+Installing the widget should be dead simple on a Mac OS X machine running 10.4.3
+of higher. Simply download the newest version from the "release" directory (it's
+fastest to download the ".zip" version"), double-click the file on your hard drive
+to uncompress it and then double-click the newly uncompressed file to install it 
+(it will have an icon of a bicycle crank). Your Mac should ask you if you want
+to install it on your dashboard -- simply click yes.
+
 h3. Configuration and Usage
 
 This widget will allow you to see upcoming MTB events that have been entered
