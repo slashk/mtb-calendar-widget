@@ -41,9 +41,9 @@ a {
     display: block;
     top: 0px;
     left: 0px;
-    bottom: 0px;
     right: 0px;
     width: auto;
+    bottom: 0px;
     height: auto;
 }
 
@@ -77,8 +77,8 @@ a {
 #popup {
     position: absolute;
     width: 187px;
+    top: 122px;
     left: 46px;
-    top: 185px;
 }
 
 #div {
@@ -171,4 +171,23 @@ a {
     position: absolute;
     left: 0px;
     top: 0px;
+}
+
+#text {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    left: 44px;
+    top: 105px;
+    right: 48px;
+    width: auto;
+    bottom: 257px;
+    height: auto;
+    text-shadow: rgb(0, 0, 0) 0px 0px 0px;
+    font-weight: bold;
+    font-family: 'Helvetica Neue';
+    font-size: 10pt;
 }

@@ -9,6 +9,7 @@ var dashcodePartSpecs = {
     "done": { "creationFunction": "CreateGlassButton", "onclick": "showFront", "text": "Done" },
     "info": { "backgroundStyle": "white", "creationFunction": "CreateInfoButton", "foregroundStyle": "black", "frontID": "front", "onclick": "showBack" },
     "scrollArea": { "autoHideScrollbars": true, "creationFunction": "CreateScrollArea", "hasVerticalScrollbar": true, "leftMargin": 4, "scrollbarDivSize": 18, "scrollbarMargin": 6, "spacing": 4 },
+    "text": { "creationFunction": "CreateText", "text": "Choose Region" },
     "title": { "creationFunction": "CreateText", "text": "MTB Calendar" },
     "topRectangleShape": { "creationFunction": "CreateShape", "leftImageWidth": 12, "rightImageWidth": 12 }
 };
