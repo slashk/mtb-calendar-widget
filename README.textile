@@ -35,7 +35,7 @@ h3. Preview
 h3. Source 
 
 This widget was created with Apple's "Dashcode":http://www.apple.com/macosx/developertools/dashcode.html
-and follows most of it's setup conventions. However, I have added "Prototype javascript library":http://www.prototypejs.org/ 
+and follows most of their setup conventions. However, I have added "Prototype javascript library":http://www.prototypejs.org/ 
  (version 1.6.0.3).
 
 h3. Changelog
