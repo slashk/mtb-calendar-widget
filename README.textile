@@ -33,3 +33,16 @@ h3. Source
 This widget was created with Apple's "Dashcode":http://www.apple.com/macosx/developertools/dashcode.html
 and follows most of it's setup conventions. However, I have added "Prototype javascript library":http://www.prototypejs.org/ 
  (version 1.6.0.3).
+
+h3. Changelog
+
+* version 0.2 (December 1st, 2008)
+** icon ! (_but it sucks_)
+** back popup menu works !
+** correctly initialises preferences
+** weblinks work !
+** it's green !
+
+* version 0.1 (November 28th, 2008)
+** basic creation -- only moderately usable
+** no savable preferences or icon
