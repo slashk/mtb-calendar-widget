@@ -143,6 +143,7 @@ function showBack(event)
     if (window.widget) {
         setTimeout('widget.performTransition();', 0);
     }
+
 }
 
 // Function: showFront(event)
@@ -164,6 +165,7 @@ function showFront(event)
     if (window.widget) {
         setTimeout('widget.performTransition();', 0);
     }
+    $("scrollArea").object.refresh();
 }
 
 if (window.widget) {
