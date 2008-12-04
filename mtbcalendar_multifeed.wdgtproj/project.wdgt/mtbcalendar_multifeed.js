@@ -3,7 +3,9 @@
 
 var feedURL = "";
 var onloadHandler = function() { xmlLoaded(xmlRequest); };
-var xmlRequest = new XMLHttpRequest();
+var xmlRequest = null;
+var lastUpdated = 0;       // Track last refresh time to avoid excessive updates
+//var popup;
 
 function loadPreferences(key) {
 	return widget.preferenceForKey(widget.identifier + "-" + key);
@@ -41,6 +43,8 @@ function parseEvents(events) {
 function updateRegionChoice() {
     savePreferences("region", popup.value);
     $("regionName").innerHTML = popup[popup.selectedIndex].text;
+    feedURL = popup.value;
+    refreshEvents();
 }
 
 // Called when an XMLHttpRequest loads a feed; works with the XMLHttpRequest setup snippet
@@ -61,12 +65,17 @@ function xmlLoaded(xmlRequest)
 function load()
 {
     setupParts();
+    refreshEvents;
+}
+
+function refreshEvents () {
 	if (feedURL == "") {
 		savePreferences("region", "http://www.mtbcalendar.com/tags/norcal.json?future=1");
 		feedURL = loadPreferences("region");
         popup.value = feedURL;
         $("regionName").innerHTML = popup[popup.selectedIndex].text;
 	}
+    xmlRequest = new XMLHttpRequest();
     xmlLoaded(xmlRequest);
     xmlRequest.onload = onloadHandler;
     xmlRequest.open("GET", feedURL);
@@ -78,9 +87,7 @@ function load()
 // Called when the widget has been removed from the Dashboard
 function remove()
 {
-    // Stop any timers to prevent CPU usage
-    
-    // Remove any preferences as needed
+     // Remove any preferences as needed
     widget.setPreferenceForKey(null, widget.identifier + "-" + "region");
 }
 
@@ -95,7 +102,12 @@ function hide()
 // Called when the widget has been shown
 function show()
 {
-    // Restart any timers that were stopped on hide
+    // Refresh feed if 15 minutes have passed since the last update
+    var now = (new Date).getTime();
+    if ((now - lastUpdated) > 15 * 60 * 1000) {
+        refreshEvents();
+    }
+
 }
 
 // Function: sync()
@@ -141,21 +153,6 @@ function showFront(event)
 {
     var front = $("front");
     var back = $("back");
-
-    //if (popup.value) {
-      //  savePreferences("region", popup.value);
-       // $("regionName").innerHTML = popup[popup.selectedIndex].text;
-    //}
-
-    if (popup.value != feedURL)  {
-        feedURL = loadPreferences("region");
-        //$("regionName").innerHTML = popup[popup.selectedIndex].text;
-        xmlLoaded(xmlRequest);
-        xmlRequest.onload = onloadHandler;
-        xmlRequest.open("GET", feedURL);
-        xmlRequest.setRequestHeader("Cache-Control", "no-cache");
-        xmlRequest.send(null);
-    }
     
     if (window.widget) {
         widget.prepareForTransition("ToFront");
