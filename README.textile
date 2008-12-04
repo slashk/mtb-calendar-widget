@@ -41,7 +41,7 @@ and follows most of their setup conventions. However, I have added "Prototype ja
 
 h3. Changelog
 
-* version 0.3 (December 3rd, 2008)
+* version 0.3 (December 3rd, 2008) BETA1
 ** fixed refresh issues. now refreshes every 15 minutes.
 ** fixed bug on scrollbar refreshing
 ** fixed empty calendar issues. now includes text.
