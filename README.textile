@@ -29,9 +29,8 @@ front panel and it will take you to the appropriate page on the
 "MTB Calendar":http://www.mtbcalendar.com/ website.
 
 h3. Preview
-!front_v03.png!
-!back_v03.png!
-
+!front_v03.png(front)!
+!back_v03.png(back)!
 
 h3. Source 
 
@@ -40,6 +39,13 @@ and follows most of their setup conventions. However, I have added "Prototype ja
  (version 1.6.0.3).
 
 h3. Changelog
+
+* version 0.3 (December 3rd, 2008)
+** fixed refresh issues. now refreshes every 15 minutes.
+** fixed bug on scrollbar refreshing
+** fixed empty calendar issues. now includes text.
+** added all regions to popup menu
+** streamlined code
 
 * version 0.2 (December 1st, 2008)
 ** icon ! (_but it sucks_)
