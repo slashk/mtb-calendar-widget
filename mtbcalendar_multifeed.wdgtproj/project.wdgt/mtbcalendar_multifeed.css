@@ -60,7 +60,7 @@ a {
     position: absolute;
     width: 107px;
     height: 35px;
-    top: 288px;
+    top: 270px;
     right: 87px;
     margin-left: auto;
     left: 86px;
@@ -79,7 +79,7 @@ a {
     position: absolute;
     width: 199px;
     left: 41px;
-    top: 166px;
+    top: 179px;
 }
 
 #div {
@@ -189,10 +189,10 @@ a {
     font-family: 'Helvetica Neue';
     font-size: 10pt;
     left: 41px;
-    top: 149px;
+    top: 162px;
     right: 40px;
     width: auto;
-    bottom: 213px;
+    bottom: 200px;
     height: auto;
 }
 
@@ -219,11 +219,11 @@ a {
     margin-top: 0px;
     color: rgb(255, 255, 255);
     left: 40px;
-    text-align: left;
+    text-align: center;
     top: 43px;
     right: 39px;
     width: auto;
-    bottom: 245px;
+    bottom: 232px;
     height: auto;
 }
 
@@ -233,5 +233,14 @@ a {
     bottom: auto;
     margin-top: 0px;
     left: 76px;
-    top: 237px;
+    top: 223px;
+}
+
+#glassbutton1 {
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    top: 336px;
+    left: 40px;
 }

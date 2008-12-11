@@ -16,6 +16,11 @@ function openWebsite () {
     widget.openURL(url);
 }
 
+function openRepo () {
+    var repo = "http://github.com/slashk/mtb-calendar-widget/tree/master";
+    widget.openURL(repo);
+}
+
 function savePreferences(key, value) {
 	widget.setPreferenceForKey(value, widget.identifier + "-" + key);
 }
