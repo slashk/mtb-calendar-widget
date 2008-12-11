@@ -7,10 +7,12 @@
 var dashcodePartSpecs = {
     "bottomRectangleShape": { "creationFunction": "CreateShape", "leftImageWidth": 12, "rightImageWidth": 12 },
     "done": { "creationFunction": "CreateGlassButton", "onclick": "showFront", "text": "Done" },
+    "glassbutton": { "creationFunction": "CreateGlassButton", "onclick": "openWebsite", "text": "Visit MTB Calendar" },
     "info": { "backgroundStyle": "white", "creationFunction": "CreateInfoButton", "foregroundStyle": "black", "frontID": "front", "onclick": "showBack" },
     "regionName": { "creationFunction": "CreateText", "text": "Text" },
     "scrollArea": { "autoHideScrollbars": true, "creationFunction": "CreateScrollArea", "hasVerticalScrollbar": true, "leftMargin": 4, "scrollbarDivSize": 18, "scrollbarMargin": 6, "spacing": 4 },
     "text": { "creationFunction": "CreateText", "text": "Choose Region" },
+    "text1": { "creationFunction": "CreateText", "text": "This widget pulls upcoming regional MTB racing events from the mtbcalendar.com website. It updates the calendar on 1 hour intervals. Click on any race name to open the mtbcalendar.com website and see the race details." },
     "title": { "creationFunction": "CreateText", "text": "MTB Calendar" },
     "topRectangleShape": { "creationFunction": "CreateShape", "leftImageWidth": 12, "rightImageWidth": 12 }
 };

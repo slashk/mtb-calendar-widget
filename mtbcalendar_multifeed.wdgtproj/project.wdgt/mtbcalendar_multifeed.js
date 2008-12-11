@@ -11,6 +11,11 @@ function loadPreferences(key) {
 	return widget.preferenceForKey(widget.identifier + "-" + key);
 }
 
+function openWebsite () {
+    var url = "http://www.mtbcalendar.com/";
+    widget.openURL(url);
+}
+
 function savePreferences(key, value) {
 	widget.setPreferenceForKey(value, widget.identifier + "-" + key);
 }
