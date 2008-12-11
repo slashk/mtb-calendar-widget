@@ -1,5 +1,4 @@
-h2. Primary Fixes for Next Release (v0.4)
+h2. Primary Fixes for Next Release (v0.5)
 
 * Change color scheme
 * Add update mechanism (ala sparkle)
-* Add link and branding to back page
