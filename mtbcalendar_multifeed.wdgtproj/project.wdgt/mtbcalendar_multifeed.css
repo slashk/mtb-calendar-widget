@@ -28,9 +28,9 @@ a {
     bottom: 18px;
     width: 13px;
     height: 13px;
-    top: 349px;
-    left: 246px;
     opacity: 1;
+    left: 246px;
+    top: 189px;
 }
 
 #back {
@@ -51,40 +51,40 @@ a {
 #done {
     position: absolute;
     right: 21px;
-    bottom: 21px;
     margin-left: auto;
+    bottom: 21px;
     margin-top: auto;
 }
 
 #backDevelopedWith {
     position: absolute;
-    width: 107px;
-    height: 35px;
-    top: 270px;
-    right: 87px;
+    width: 77px;
+    height: 25px;
+    top: 148px;
+    right: 102px;
     margin-left: auto;
-    left: 86px;
+    left: 101px;
     margin-right: auto;
 }
 
 #topRectangleShape {
     position: absolute;
     height: 35px;
-    left: 12px;
     width: 256px;
-    top: 13px;
+    top: 12px;
+    left: 12px;
 }
 
 #popup {
     position: absolute;
     width: 199px;
-    left: 41px;
-    top: 179px;
+    left: 42px;
+    top: 91px;
 }
 
 #div {
+    bottom: 6px;
     left: 217px;
-    bottom: 7px;
 }
 
 #title {
@@ -104,10 +104,10 @@ a {
 
 #bottomRectangleShape {
     position: absolute;
-    left: 12px;
     width: 256px;
     height: 23px;
-    top: 345px;
+    left: 12px;
+    top: 185px;
 }
 
 #scrollArea {
@@ -115,12 +115,12 @@ a {
     font-family: HelveticaNeue;
     top: 47px;
     margin-left: 5px;
-    height: 298px;
-    width: 253px;
-    left: 7px;
     background-color: rgb(255, 255, 255);
     color: rgb(25, 53, 11);
     font-size: 10pt;
+    left: 9px;
+    height: 139px;
+    width: 252px;
 }
 
 #option {
@@ -177,6 +177,60 @@ a {
     top: 0px;
 }
 
+#regionName {
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    left: 40px;
+    top: 189px;
+    width: auto;
+    height: auto;
+}
+
+#text1 {
+    font-family: HelveticaNeue;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    color: rgb(255, 255, 255);
+    left: 40px;
+    text-align: center;
+    font-size: 8pt;
+    top: 18px;
+    right: 39px;
+    width: auto;
+    bottom: 149px;
+    height: auto;
+}
+
+#glassbutton {
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    left: 76px;
+    top: 120px;
+}
+
+#glassbutton1 {
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    top: 176px;
+    left: 29px;
+}
+
+#content {
+    bottom: 0px;
+    right: 22px;
+}
+
 #text {
     text-overflow: ellipsis;
     overflow: hidden;
@@ -188,59 +242,10 @@ a {
     font-weight: bold;
     font-family: 'Helvetica Neue';
     font-size: 10pt;
-    left: 41px;
-    top: 162px;
-    right: 40px;
-    width: auto;
-    bottom: 200px;
-    height: auto;
-}
-
-#regionName {
-    font-family: HelveticaNeue;
-    font-size: 10pt;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    position: absolute;
-    margin-top: 0px;
-    top: 349px;
-    color: rgb(255, 255, 255);
     left: 40px;
+    top: 74px;
+    right: 41px;
     width: auto;
+    bottom: 128px;
     height: auto;
-}
-
-#text1 {
-    font-family: HelveticaNeue;
-    font-size: 10pt;
-    text-overflow: ellipsis;
-    overflow: hidden;
-    position: absolute;
-    margin-top: 0px;
-    color: rgb(255, 255, 255);
-    left: 40px;
-    text-align: center;
-    top: 43px;
-    right: 39px;
-    width: auto;
-    bottom: 232px;
-    height: auto;
-}
-
-#glassbutton {
-    position: absolute;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
-    left: 76px;
-    top: 223px;
-}
-
-#glassbutton1 {
-    position: absolute;
-    right: auto;
-    bottom: auto;
-    margin-top: 0px;
-    top: 336px;
-    left: 40px;
 }

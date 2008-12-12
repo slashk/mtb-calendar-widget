@@ -23,7 +23,7 @@
 	<key>CloseBoxInsetY</key>
 	<integer>15</integer>
 	<key>Height</key>
-	<integer>380</integer>
+	<integer>220</integer>
 	<key>MainHTML</key>
 	<string>mtbcalendar_multifeed.html</string>
 	<key>Width</key>
