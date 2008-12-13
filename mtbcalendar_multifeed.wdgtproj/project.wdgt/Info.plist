@@ -15,9 +15,9 @@
 	<key>CFBundleName</key>
 	<string>mtbcalendar_multifeed</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.2</string>
+	<string>0.41</string>
 	<key>CFBundleVersion</key>
-	<string>0.2</string>
+	<string>0.41</string>
 	<key>CloseBoxInsetX</key>
 	<integer>15</integer>
 	<key>CloseBoxInsetY</key>
