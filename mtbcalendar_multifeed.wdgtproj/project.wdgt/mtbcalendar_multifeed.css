@@ -60,7 +60,7 @@ a {
     position: absolute;
     width: 77px;
     height: 25px;
-    top: 148px;
+    top: 149px;
     right: 102px;
     margin-left: auto;
     left: 101px;
@@ -79,7 +79,7 @@ a {
     position: absolute;
     width: 199px;
     left: 42px;
-    top: 91px;
+    top: 90px;
 }
 
 #div {
@@ -214,7 +214,7 @@ a {
     bottom: auto;
     margin-top: 0px;
     left: 76px;
-    top: 120px;
+    top: 118px;
 }
 
 #glassbutton1 {
@@ -241,11 +241,12 @@ a {
     text-shadow: rgb(0, 0, 0) 0px 0px 0px;
     font-weight: bold;
     font-family: 'Helvetica Neue';
-    font-size: 10pt;
     left: 40px;
-    top: 74px;
+    font-size: 9pt;
+    line-height: 14px;
+    top: 75px;
     right: 41px;
     width: auto;
-    bottom: 128px;
+    bottom: 127px;
     height: auto;
 }
