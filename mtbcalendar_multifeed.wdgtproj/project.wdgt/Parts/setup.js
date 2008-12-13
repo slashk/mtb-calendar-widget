@@ -14,6 +14,6 @@ var dashcodePartSpecs = {
     "scrollArea": { "autoHideScrollbars": true, "creationFunction": "CreateScrollArea", "hasVerticalScrollbar": true, "leftMargin": 4, "scrollbarDivSize": 18, "scrollbarMargin": 6, "spacing": 4 },
     "text": { "creationFunction": "CreateText", "text": "Choose Region" },
     "text1": { "creationFunction": "CreateText", "text": "This widget displays upcoming MTB racing events from the mtbcalendar.com website. Click on any race name to see the complete race details." },
-    "title": { "creationFunction": "CreateText", "text": "MTB Calendar" },
+    "title": { "creationFunction": "CreateText", "text": "MTB Race Calendar" },
     "topRectangleShape": { "creationFunction": "CreateShape", "leftImageWidth": 12, "rightImageWidth": 12 }
 };

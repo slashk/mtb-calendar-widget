@@ -69,10 +69,10 @@ a {
 
 #topRectangleShape {
     position: absolute;
-    height: 35px;
     width: 256px;
     top: 12px;
     left: 12px;
+    height: 26px;
 }
 
 #popup {
@@ -92,14 +92,16 @@ a {
     text-overflow: ellipsis;
     overflow: hidden;
     color: rgb(255, 255, 255);
-    top: 16px;
     font-weight: bold;
     font-family: 'Helvetica Neue';
-    font-size: 19pt;
-    text-shadow: rgb(191, 191, 191) 1px 1px 0px;
-    left: 40px;
+    font-size: 14pt;
+    top: 13px;
+    left: 31px;
+    right: 56px;
     width: auto;
+    bottom: 183px;
     height: auto;
+    text-shadow: none;
 }
 
 #bottomRectangleShape {
@@ -113,14 +115,14 @@ a {
 #scrollArea {
     position: absolute;
     font-family: HelveticaNeue;
-    top: 47px;
     margin-left: 5px;
     background-color: rgb(255, 255, 255);
     color: rgb(25, 53, 11);
     font-size: 10pt;
     left: 9px;
-    height: 139px;
-    width: 252px;
+    height: 149px;
+    top: 37px;
+    width: 251px;
 }
 
 #option {
@@ -185,8 +187,8 @@ a {
     position: absolute;
     margin-top: 0px;
     color: rgb(255, 255, 255);
-    left: 40px;
     top: 189px;
+    left: 31px;
     width: auto;
     height: auto;
 }
