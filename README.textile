@@ -38,8 +38,7 @@ h3. Configuration
 The regions on the back panel pulldown menu basically refer to groups of states (or parts of states). 
 The following list maps state abbreviations (or parts of states) to their pulldown menu region name:
 
-*NorCal: CA north of latitude 36.3219 (just south of Fresno) plus 
-parts of Northern Nevada (east of longitude 118.6846 which is basically the Reno area)
+*NorCal: CA north of latitude 36.3219 (just south of Fresno) plus parts of Northern Nevada (east of longitude 118.6846 which is basically the Reno area)
 *SoCal: CA south of the 36.3219 latitude 
 *Northwest (3): 'WA', 'OR', 'ID'
 *Mountain (5): 'UT', 'CO', 'WY', 'MT', 'NV' (except Reno area)
