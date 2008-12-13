@@ -33,6 +33,28 @@ h3. Preview
 !http://blog.mtbcalendar.com/wp-content/uploads/2008/12/front-v03.png(front)!
 !http://blog.mtbcalendar.com/wp-content/uploads/2008/12/back-v03.png(back)!
 
+h3. Configuration
+
+The regions on the back panel pulldown menu basically refer to groups of states (or parts of states). 
+The following list maps state abbreviations (or parts of states) to their pulldown menu region name:
+
+NorCal: CA north of latitude 36.3219 (just south of Fresno) plus 
+parts of Northern Nevada (east of longitude 118.6846 which is basically the Reno area)
+SoCal: CA south of the 36.3219 latitude 
+Northwest (3): 'WA', 'OR', 'ID'
+Mountain (5): 'UT', 'CO', 'WY', 'MT', 'NV' (except Reno area)
+Southwest (2): 'AZ', 'NM'
+South Central (4): 'OK', 'AR', 'TX', 'LA'
+Central (4): 'KS', 'MO', 'NE', 'IA'
+North Central (3): 'SD', 'ND', 'MN'
+Midwest (6): 'WI', 'IL', 'IN', 'OH', 'MI', 'KY'
+Northeast (7): 'ME', 'NH', 'VT', 'NY', 'CT', 'RI', 'MA'
+Southeast (7): 'FL','GA', 'AL', 'MS', 'TN', 'SC', 'NC'
+East (6): 'VA', 'WV', 'DE', 'MD', 'NJ', 'PA'
+Hawaii (1): 'HI'
+Alaska (1): 'AK'
+Canada (5): 'BC', 'AB', 'ON', 'NS', 'MB' 
+
 h3. Source 
 
 This widget was created with Apple's "Dashcode":http://www.apple.com/macosx/developertools/dashcode.html
@@ -40,6 +62,10 @@ and follows most of their setup conventions. However, I have added "Prototype ja
  (version 1.6.0.3).
 
 h3. Changelog
+
+* version 0.41 (December 13th, 2008) "shorty"
+** revamped interface to occupy less screen real estate
+** added Hawaii and Alaska to regions (sorry guys!)
 
 * version 0.4 (December 10th, 2008)
 ** added instructions and button to the back
