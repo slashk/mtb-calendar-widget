@@ -51,7 +51,7 @@ Midwest (6): 'WI', 'IL', 'IN', 'OH', 'MI', 'KY'
 Northeast (7): 'ME', 'NH', 'VT', 'NY', 'CT', 'RI', 'MA'
 Southeast (7): 'FL','GA', 'AL', 'MS', 'TN', 'SC', 'NC'
 East (6): 'VA', 'WV', 'DE', 'MD', 'NJ', 'PA'
-Hawaii (1): 'HI'
+Pacific Islands (1): 'HI'
 Alaska (1): 'AK'
 Canada (5): 'BC', 'AB', 'ON', 'NS', 'MB' 
 
