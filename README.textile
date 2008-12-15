@@ -30,8 +30,8 @@ front panel and it will take you to the appropriate page on the
 
 h3. Preview
 
-!http://blog.mtbcalendar.com/wp-content/uploads/2008/12/front-v03.png(front)!
-!http://blog.mtbcalendar.com/wp-content/uploads/2008/12/back-v03.png(back)!
+!http://blog.mtbcalendar.com/wp-content/uploads/2008/12/mtbcal-widget-front-v041.png(front)!
+!http://blog.mtbcalendar.com/wp-content/uploads/2008/12/mtbcal-widget-back-v041.png(back)!
 
 h3. Configuration
 
