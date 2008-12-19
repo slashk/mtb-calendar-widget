@@ -62,6 +62,9 @@ and follows most of their setup conventions. However, I have added "Prototype ja
 
 h3. Changelog
 
+* version 0.43 (December 19th, 2008)
+** minor cosmetic change on version number
+
 * version 0.42 (December 19th, 2008) "stutter"
 ** fixed double json request problem
 ** fixed 10 minute refresh bug (not saving last time)
