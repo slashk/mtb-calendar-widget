@@ -2,10 +2,9 @@
 // You may edit this file to customize your Dashboard widget.
 
 var feedURL = "";
-var onloadHandler = function() { xmlLoaded(xmlRequest); };
+//var onloadHandler = function() { xmlLoaded(xmlRequest); };
 var xmlRequest = null;
 var lastUpdated = 0;       // Track last refresh time to avoid excessive updates
-//var popup;
 
 function loadPreferences(key) {
 	return widget.preferenceForKey(widget.identifier + "-" + key);
@@ -66,7 +65,7 @@ function xmlLoaded(xmlRequest)
 	}
 	else {
 		alert("Error fetching data: HTTP status " + xmlRequest.status);
-		alert("Feed is " + feedURL);
+		//alert("Feed is " + feedURL);
 	}
 }
 
@@ -75,10 +74,10 @@ function xmlLoaded(xmlRequest)
 function load()
 {
     setupParts();
-    refreshEvents;
+    refreshEvents();
 }
 
-function refreshEvents () {
+function refreshEvents() {
 	if (feedURL == "") {
 		savePreferences("region", "http://www.mtbcalendar.com/tags/norcal.json?future=1");
 		feedURL = loadPreferences("region");
@@ -86,7 +85,8 @@ function refreshEvents () {
         $("regionName").innerHTML = popup[popup.selectedIndex].text;
 	}
     xmlRequest = new XMLHttpRequest();
-    xmlLoaded(xmlRequest);
+    //xmlLoaded(xmlRequest);
+    var onloadHandler = function() { xmlLoaded(xmlRequest); };
     xmlRequest.onload = onloadHandler;
     xmlRequest.open("GET", feedURL);
     xmlRequest.setRequestHeader("Cache-Control", "no-cache");
@@ -116,8 +116,8 @@ function show()
     var now = (new Date).getTime();
     if ((now - lastUpdated) > 15 * 60 * 1000) {
         refreshEvents();
+        lastUpdated = now;
     }
-
 }
 
 // Function: sync()
