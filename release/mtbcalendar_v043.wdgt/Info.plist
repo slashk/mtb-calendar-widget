@@ -9,11 +9,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleDisplayName</key>
-	<string>mtbcalendar_multifeed</string>
+	<string>mtbcalendar_v043</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.kpepple.widget.mtbcalendar</string>
 	<key>CFBundleName</key>
-	<string>mtbcalendar_multifeed</string>
+	<string>mtbcalendar_v043</string>
 	<key>CFBundleShortVersionString</key>
 	<string>0.43</string>
 	<key>CFBundleVersion</key>
