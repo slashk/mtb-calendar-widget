@@ -6,11 +6,14 @@ the "MTB Calendar":http://www.mtbcalendar.com/ website.
 h3. Installation
 
 Installing the widget should be dead simple on a Mac OS X machine running 10.4.3
-of higher. Simply download the newest version from the "release" directory (it's
-fastest to download the ".zip" version"), double-click the file on your hard drive
-to uncompress it and then double-click the newly uncompressed file to install it 
-(it will have an icon of a bicycle crank). Your Mac should ask you if you want
-to install it on your dashboard -- simply click yes.
+of higher.
+
+Mac OS X 10.4 Tiger is required. If you’re using Safari, click the download link. When 
+the widget download is complete, show Dashboard, click the Plus sign to display the 
+Widget Bar and click the widget’s icon in the Widget Bar to open it. If you’re using 
+a browser other than Safari, click the download link. When the widget download is complete, 
+unarchive it and place it in /Library/Widgets/ in your home folder. show Dashboard, click 
+the Plus sign to display the Widget Bar and click the widget’s icon in the Widget Bar to open it.
 
 h3. Configuration and Usage
 
