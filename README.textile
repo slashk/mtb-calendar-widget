@@ -1,35 +1,24 @@
-h2. MTBcalendar OSX Dashboard Widget
+h2. MTBcalendar Mac OS X Dashboard Widget
 
-This is a little widget which lets you see regional MTB race calendars from 
-the "MTB Calendar":http://www.mtbcalendar.com/ website.
+This is a little widget which lets you see regional MTB race calendars from the "MTB Calendar":http://www.mtbcalendar.com/ website.
+
+h3. Download
+
+The most current version of MTBcalendar widget is 0.43 and is available at "http://blog.mtbcalendar.com/wp-content/uploads/2008/12/mtbcalendar_v043.zip":http://blog.mtbcalendar.com/wp-content/uploads/2008/12/mtbcalendar_v043.zip.
 
 h3. Installation
 
-Installing the widget should be dead simple on a Mac OS X machine running 10.4.3
-of higher.
+Installing the widget should be dead simple on a Mac OS X machine running 10.4.3 or higher.
 
-Mac OS X 10.4 Tiger is required. If you’re using Safari, click the download link. When 
-the widget download is complete, show Dashboard, click the Plus sign to display the 
-Widget Bar and click the widget’s icon in the Widget Bar to open it. If you’re using 
-a browser other than Safari, click the download link. When the widget download is complete, 
-unarchive it and place it in /Library/Widgets/ in your home folder. show Dashboard, click 
-the Plus sign to display the Widget Bar and click the widget’s icon in the Widget Bar to open it.
+If you're using Safari, click the download link. When the widget download is complete, show Dashboard, click the Plus sign to display the  Widget Bar and click the widget's icon in the Widget Bar to open it. If you're using  a browser other than Safari, click the download link. When the widget download is complete,  unarchive it and place it in /Library/Widgets/ in your home folder. show Dashboard, click  the Plus sign to display the Widget Bar and click the widget's icon in the Widget Bar to open it.
 
 h3. Configuration and Usage
 
-This widget will allow you to see upcoming MTB events that have been entered
-on the mtbcalendar.com site.
+This widget will allow you to see upcoming MTB events that have been entered on the "mtbcalendar.com":http://www.mtbcalendar.com site.
 
-The only preference setting on this widget is accessible via the back panel 
-(click the (i) icon in the lower right hand corner to show). It is a pulldown 
-menu which lists different regions so that you can find races closest to where 
-you live. It defaults to "Northern California" (_hells yeah_) but you can set 
-it to any region you choose. The regions are mostly small cluster of states, 
-but some states are split (like California).
+The only preference setting on this widget is accessible via the back panel  (click the (i) icon in the lower right hand corner to show). It is a pulldown  menu which lists different regions so that you can find races closest to where  you live. It defaults to "Northern California" (_hells yeah_) but you can set  it to any region you choose. The regions are mostly small cluster of states, but some states are split (like California).
 
-To see more details about any race event, simply click on the events name on the 
-front panel and it will take you to the appropriate page on the 
-"MTB Calendar":http://www.mtbcalendar.com/ website.
+To see more details about any race event, simply click on the events name on the  front panel and it will take you to the appropriate page on the "MTB Calendar":http://www.mtbcalendar.com/ website.
 
 h3. Preview
 
@@ -38,8 +27,7 @@ h3. Preview
 
 h3. Configuration
 
-The regions on the back panel pulldown menu basically refer to groups of states (or parts of states). 
-The following list maps state abbreviations (or parts of states) to their pulldown menu region name:
+The regions on the back panel pulldown menu basically refer to groups of states (or parts of states).  The following list maps state abbreviations (or parts of states) to their pulldown menu region name:
 
 * NorCal: CA north of latitude 36.3219 (just south of Fresno) plus parts of Northern Nevada (east of longitude 118.6846 which is basically the Reno area)
 * SoCal: CA south of the 36.3219 latitude 
@@ -59,9 +47,13 @@ The following list maps state abbreviations (or parts of states) to their pulldo
 
 h3. Source 
 
-This widget was created with Apple's "Dashcode":http://www.apple.com/macosx/developertools/dashcode.html
-and follows most of their setup conventions. However, I have added "Prototype javascript library":http://www.prototypejs.org/ 
- (version 1.6.0.3).
+This widget was created with Apple's "Dashcode":http://www.apple.com/macosx/developertools/dashcode.html and follows most of their setup conventions. However, I have added "Prototype javascript library":http://www.prototypejs.org/ (version 1.6.0.3). 
+
+The source is available via my "GitHub account":http://slashk.github.com/.
+
+h3. Author
+
+This dashboard widget was created by "/k":http://slashk.github.com/ for the "MTBcalendar":http://www.mtbcalendar.com website. /k also writes the "NorCal MTB Racing Blog":http://norcalmtnbikeracing.blogspot.com/ and occasionally gets to ride his bike.
 
 h3. Changelog
 
