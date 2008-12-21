@@ -8,7 +8,7 @@ var dashcodePartSpecs = {
     "bottomRectangleShape": { "creationFunction": "CreateShape", "leftImageWidth": 12, "rightImageWidth": 12 },
     "done": { "creationFunction": "CreateGlassButton", "onclick": "showFront", "text": "Done" },
     "glassbutton": { "creationFunction": "CreateGlassButton", "onclick": "openWebsite", "text": "Visit MTB Calendar" },
-    "glassbutton1": { "creationFunction": "CreateGlassButton", "onclick": "openRepo", "text": "v0.43" },
+    "glassbutton1": { "creationFunction": "CreateGlassButton", "onclick": "openRepo", "text": "v0.44" },
     "info": { "backgroundStyle": "white", "creationFunction": "CreateInfoButton", "foregroundStyle": "white", "frontID": "front", "onclick": "showBack" },
     "regionName": { "creationFunction": "CreateText", "text": "Text" },
     "scrollArea": { "autoHideScrollbars": true, "creationFunction": "CreateScrollArea", "hasVerticalScrollbar": true, "leftMargin": 4, "scrollbarDivSize": 18, "scrollbarMargin": 6, "spacing": 4 },

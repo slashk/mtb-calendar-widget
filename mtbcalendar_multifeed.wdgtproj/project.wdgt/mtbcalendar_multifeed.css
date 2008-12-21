@@ -79,7 +79,7 @@ a {
     position: absolute;
     width: 199px;
     left: 42px;
-    top: 90px;
+    top: 89px;
 }
 
 #div {
@@ -93,8 +93,6 @@ a {
     overflow: hidden;
     color: rgb(255, 255, 255);
     font-weight: bold;
-    font-family: 'Helvetica Neue';
-    font-size: 14pt;
     top: 13px;
     left: 31px;
     right: 56px;
@@ -102,6 +100,8 @@ a {
     bottom: 183px;
     height: auto;
     text-shadow: none;
+    font-size: 14pt;
+    font-family: 'Helvetica Neue';
 }
 
 #bottomRectangleShape {
@@ -246,9 +246,9 @@ a {
     left: 40px;
     font-size: 9pt;
     line-height: 14px;
-    top: 75px;
+    top: 74px;
     right: 41px;
     width: auto;
-    bottom: 127px;
+    bottom: 128px;
     height: auto;
 }

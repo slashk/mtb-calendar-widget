@@ -11,13 +11,13 @@
 	<key>CFBundleDisplayName</key>
 	<string>mtbcalendar_multifeed</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.kpepple.widget.mtbcalendar</string>
+	<string>com.mtbcalendar.widget.mtbcalendar</string>
 	<key>CFBundleName</key>
 	<string>mtbcalendar_multifeed</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.43</string>
+	<string>0.44</string>
 	<key>CFBundleVersion</key>
-	<string>0.43</string>
+	<string>0.44</string>
 	<key>CloseBoxInsetX</key>
 	<integer>15</integer>
 	<key>CloseBoxInsetY</key>
