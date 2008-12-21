@@ -1,4 +1,5 @@
 h2. Primary Fixes for Next Release (v0.5)
 
-* Change color scheme
+* Change color / artwork scheme
 * Add update mechanism (ala sparkle)
+* Add "newly added events" option
