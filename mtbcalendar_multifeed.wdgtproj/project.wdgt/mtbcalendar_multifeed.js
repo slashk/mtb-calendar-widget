@@ -16,7 +16,7 @@ function openWebsite () {
 }
 
 function openRepo () {
-    var repo = "http://github.com/slashk/mtb-calendar-widget/tree/master";
+    var repo = "http://slashk.github.com/mtb-calendar-widget/";
     widget.openURL(repo);
 }
 
