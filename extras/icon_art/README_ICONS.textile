@@ -1,0 +1,11 @@
+h2. ICONS
+
+This folder includes all the artwork to create the icons for the widget. You will find:
+* original_icon.png: the original black on white icon for the widget
+* crank.pxm: pixelmator original photo of the crank
+* icon_128x128.png: 128x128 version of the white on black icon in png
+* icon_128x128.pxm: pixelmator version of the icon in 128x128
+
+You can find the cool pixelmator application that I created all this artwork with at "http://www.pixelmator.com/":http://www.pixelmator.com/
+
+I learned how to create the icon via a pixelmator screencast at "Pixelmator Tutorials":http://web.me.com/sebvdv/PixelmatorTutorials/Podcast/Entries/2008/11/23_Creating_an_iPhone-Type_Button.html but you can also probably find it for free on iTunes podcasts.

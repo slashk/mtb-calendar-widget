@@ -1,0 +1,3 @@
+h2. Extra README
+
+This folder includes extra odds and ends that I need to develop this widget but didn't fit anywhere else. 
