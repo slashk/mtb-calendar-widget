@@ -1,94 +1,188 @@
-<h2>MTBcalendar Mac OS X Dashboard Widget</h2>
-<p>This is a little widget which lets you see regional <span class="caps">MTB</span> race calendars from the <a href="http://www.mtbcalendar.com/"><span class="caps">MTB</span> Calendar</a> website.</p>
-<h3>Download</h3>
-<p>The most current version of MTBcalendar widget is 0.43 and is available at <a href="http://blog.mtbcalendar.com/wp-content/uploads/2008/12/mtbcalendar_v043.zip">http://blog.mtbcalendar.com/wp-content/uploads/2008/12/mtbcalendar_v043.zip</a>.</p>
-<h3>Installation</h3>
-<p>Installing the widget should be dead simple on a Mac OS X machine running 10.4.3 or higher.</p>
-<p>If you&#8217;re using Safari, click the download link. When the widget download is complete, show Dashboard, click the Plus sign to display the  Widget Bar and click the widget&#8217;s icon in the Widget Bar to open it. If you&#8217;re using  a browser other than Safari, click the download link. When the widget download is complete,  unarchive it and place it in /Library/Widgets/ in your home folder. show Dashboard, click  the Plus sign to display the Widget Bar and click the widget&#8217;s icon in the Widget Bar to open it.</p>
-<h3>Configuration and Usage</h3>
-<p>This widget will allow you to see upcoming <span class="caps">MTB</span> events that have been entered on the <a href="http://www.mtbcalendar.com">mtbcalendar.com</a> site.</p>
-<p>The only preference setting on this widget is accessible via the back panel  (click the (i) icon in the lower right hand corner to show). It is a pulldown  menu which lists different regions so that you can find races closest to where  you live. It defaults to &#8220;Northern California&#8221; (<em>hells yeah</em>) but you can set  it to any region you choose. The regions are mostly small cluster of states, but some states are split (like California).</p>
-<p>To see more details about any race event, simply click on the events name on the  front panel and it will take you to the appropriate page on the <a href="http://www.mtbcalendar.com/"><span class="caps">MTB</span> Calendar</a> website.</p>
-<h3>Preview</h3>
-<p><img src="http://blog.mtbcalendar.com/wp-content/uploads/2008/12/mtbcal-widget-front-v041.png" title="front" alt="front" /><br />
-<img src="http://blog.mtbcalendar.com/wp-content/uploads/2008/12/mtbcal-widget-back-v041.png" title="back" alt="back" /></p>
-<h3>Configuration</h3>
-<p>The regions on the back panel pulldown menu basically refer to groups of states (or parts of states).  The following list maps state abbreviations (or parts of states) to their pulldown menu region name:</p>
-<ul>
-	<li>NorCal: CA north of latitude 36.3219 (just south of Fresno) plus parts of Northern Nevada (east of longitude 118.6846 which is basically the Reno area)</li>
-	<li>SoCal: CA south of the 36.3219 latitude</li>
-	<li>Northwest (3): &#8216;WA&#8217;, &#8216;OR&#8217;, &#8216;ID&#8217;</li>
-	<li>Mountain (5): &#8216;UT&#8217;, &#8216;CO&#8217;, &#8216;WY&#8217;, &#8216;MT&#8217;, &#8216;NV&#8217; (except Reno area)</li>
-	<li>Southwest (2): &#8216;AZ&#8217;, &#8216;NM&#8217;</li>
-	<li>South Central (4): &#8216;OK&#8217;, &#8216;AR&#8217;, &#8216;TX&#8217;, &#8216;LA&#8217;</li>
-	<li>Central (4): &#8216;KS&#8217;, &#8216;MO&#8217;, &#8216;NE&#8217;, &#8216;IA&#8217;</li>
-	<li>North Central (3): &#8216;SD&#8217;, &#8216;ND&#8217;, &#8216;MN&#8217;</li>
-	<li>Midwest (6): &#8216;WI&#8217;, &#8216;IL&#8217;, &#8216;IN&#8217;, &#8216;OH&#8217;, &#8216;MI&#8217;, &#8216;KY&#8217;</li>
-	<li>Northeast (7): &#8216;ME&#8217;, &#8216;NH&#8217;, &#8216;VT&#8217;, &#8216;NY&#8217;, &#8216;CT&#8217;, &#8216;RI&#8217;, &#8216;MA&#8217;</li>
-	<li>Southeast (7): &#8216;FL&#8217;,&#8216;GA&#8217;, &#8216;AL&#8217;, &#8216;MS&#8217;, &#8216;TN&#8217;, &#8216;SC&#8217;, &#8216;NC&#8217;</li>
-	<li>East (6): &#8216;VA&#8217;, &#8216;WV&#8217;, &#8216;DE&#8217;, &#8216;MD&#8217;, &#8216;NJ&#8217;, &#8216;PA&#8217;</li>
-	<li>Pacific Islands (1): &#8216;HI&#8217;</li>
-	<li>Alaska (1): &#8216;AK&#8217;</li>
-	<li>Canada (5): &#8216;BC&#8217;, &#8216;AB&#8217;, &#8216;ON&#8217;, &#8216;NS&#8217;, &#8216;MB&#8217;</li>
-</ul>
-<h3>Source</h3>
-<p>This widget was created with Apple&#8217;s <a href="http://www.apple.com/macosx/developertools/dashcode.html">Dashcode</a> and follows most of their setup conventions. However, I have added <a href="http://www.prototypejs.org/">Prototype javascript library</a> (version 1.6.0.3).</p>
-<p>The source is available via my <a href="http://slashk.github.com/">GitHub account</a>.</p>
-<h3>Author</h3>
-<p>This dashboard widget was created by <a href="http://slashk.github.com/">/k</a> for the <a href="http://www.mtbcalendar.com">MTBcalendar</a> website. /k also writes the <a href="http://norcalmtnbikeracing.blogspot.com/">NorCal <span class="caps">MTB</span> Racing Blog</a> and occasionally gets to ride his bike.</p>
-<h3>Changelog</h3>
-<ul>
-	<li>version 0.43 (December 19th, 2008)
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+	<title>MTBcalendar Dashboard Widget</title>
+	
+	<style type="text/css">
+		body {
+  		margin-top: 1.0em;
+  		background-color: #004D00;
+		  font-family: "helvetica"; 
+  		color: #ffffff;
+    }
+    #container {
+      margin: 0 auto;
+      width: 700px;
+    }
+		h1 { font-size: 3.8em; color: #C700C7; margin-bottom: 3px; }
+		h1 .small { font-size: 0.4em; }
+		h1 a { text-decoration: none; color: #C700C7;  }
+		h2 { font-size: 1.5em; color: #C700C7; }
+    h3 { text-align: center; color: #cccccc; }
+    a { color: #cccccc; }
+    .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
+    .download { float: right; text-align: center; }
+	.download a { text-decoration: none;}
+	pre { background: #000; color: #fff; padding: 15px;}
+    hr { border: 0; width: 80%; border-bottom: 1px solid #aaa}
+    .footer { text-align:center; padding-top:30px; font-style: italic; }
+	</style>
+	
+</head>
+
+<body>
+
+  <div id="container">
+
+    <div class="download">
+      <a href="releases/mtbcalendar_v045.zip">
+        <img border="0" width="128" src="images/icon_128x128.png"><br />download here!</a>
+    </div>
+
+
+	<a href="http://github.com/slashk"><img style="position: absolute; top: 0; right: 0; border: 0;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_gray_6d6d6d.png" alt="Fork me on GitHub" /></a>
+      
+    <h1><a href="http://github.com/slashk/mtb-calendar-widget">MTBcalendar Dashboard Widget</a>
+	</h1>
+
+    <div class="description">
+      keep track of your local MTB races on your Mac OS X Dashboard
+    </div>
+
+    	<p>This is a little dashboard widget which lets you see regional <span class="caps">MTB</span> race calendars from the <a href="http://www.mtbcalendar.com/" target="_blank"><span class="caps">MTB</span> Calendar</a> website.</p>
+
+<h2>Preview</h2>
+				<p><img src="images/mtbcal-widget-front-v041.png" title="front" alt="front" />
+				<img src="images/mtbcal-widget-back-v041.png" title="back" alt="back" /></p>
+
+<h2>Installation</h2>
+		<p>Installing the widget should be dead simple on a Mac OS X machine running 10.4.3 or higher.</p>
+		<p>If you&#8217;re using Safari, click the download link. When the widget download is complete, show Dashboard, click the Plus sign to display the  Widget Bar and click the widget&#8217;s icon in the Widget Bar to open it. If you&#8217;re using  a browser other than Safari, click the download link. When the widget download is complete,  unarchive it and place it in /Library/Widgets/ in your home folder. show Dashboard, click  the Plus sign to display the Widget Bar and click the widget&#8217;s icon in the Widget Bar to open it.</p>
+
+Please note, that this widget is only supported on Mac OS X. I may be creating a XP or Google or Yahoo! widget if there is any interest.
+
+<h2>Usage</h2>
+		<p>This widget will allow you to see upcoming MTB events that have been entered on the <a href="http://www.mtbcalendar.com">mtbcalendar.com</a> site.</p>
+		<p>The only preference setting on this widget is accessible via the back panel  (click the (i) icon in the lower right hand corner to show). It is a pulldown  menu which lists different regions so that you can find races closest to where  you live. It defaults to &#8220;Northern California&#8221; (<em>hells yeah</em>) but you can set  it to any region you choose. The regions are mostly small cluster of states, but some states are split (like California).</p>
+		<p>To see more details about any race event, simply click on the events name on the  front panel and it will take you to the appropriate page on the <a href="http://www.mtbcalendar.com/"><span class="caps">MTB</span> Calendar</a> website.</p>
+
+
+<h2>Configuration</h2>
+		<p>The regions on the back panel pulldown menu basically refer to groups of states (or parts of states).  The following list maps state abbreviations (or parts of states) to their pulldown menu region name:</p>
+		<ul>
+			<li>NorCal: CA north of latitude 36.3219 (just south of Fresno) plus parts of Northern Nevada (east of longitude 118.6846 which is basically the Reno area)</li>
+			<li>SoCal: CA south of the 36.3219 latitude</li>
+			<li>Northwest (3): &#8216;WA&#8217;, &#8216;OR&#8217;, &#8216;ID&#8217;</li>
+			<li>Mountain (5): &#8216;UT&#8217;, &#8216;CO&#8217;, &#8216;WY&#8217;, &#8216;MT&#8217;, &#8216;NV&#8217; (except Reno area)</li>
+			<li>Southwest (2): &#8216;AZ&#8217;, &#8216;NM&#8217;</li>
+			<li>South Central (4): &#8216;OK&#8217;, &#8216;AR&#8217;, &#8216;TX&#8217;, &#8216;LA&#8217;</li>
+			<li>Central (4): &#8216;KS&#8217;, &#8216;MO&#8217;, &#8216;NE&#8217;, &#8216;IA&#8217;</li>
+			<li>North Central (3): &#8216;SD&#8217;, &#8216;ND&#8217;, &#8216;MN&#8217;</li>
+			<li>Midwest (6): &#8216;WI&#8217;, &#8216;IL&#8217;, &#8216;IN&#8217;, &#8216;OH&#8217;, &#8216;MI&#8217;, &#8216;KY&#8217;</li>
+			<li>Northeast (7): &#8216;ME&#8217;, &#8216;NH&#8217;, &#8216;VT&#8217;, &#8216;NY&#8217;, &#8216;CT&#8217;, &#8216;RI&#8217;, &#8216;MA&#8217;</li>
+			<li>Southeast (7): &#8216;FL&#8217;,&#8216;GA&#8217;, &#8216;AL&#8217;, &#8216;MS&#8217;, &#8216;TN&#8217;, &#8216;SC&#8217;, &#8216;NC&#8217;</li>
+			<li>East (6): &#8216;VA&#8217;, &#8216;WV&#8217;, &#8216;DE&#8217;, &#8216;MD&#8217;, &#8216;NJ&#8217;, &#8216;PA&#8217;</li>
+			<li>Pacific Islands (1): &#8216;HI&#8217;</li>
+			<li>Alaska (1): &#8216;AK&#8217;</li>
+			<li>Canada (5): &#8216;BC&#8217;, &#8216;AB&#8217;, &#8216;ON&#8217;, &#8216;NS&#8217;, &#8216;MB&#8217;</li>
+		</ul>
+
+<h2>Author</h2>
+		<p>This dashboard widget was created by <a href="http://slashk.github.com/">/k</a> for the <a href="http://www.mtbcalendar.com">MTBcalendar</a> website. /k also writes the <a href="http://norcalmtnbikeracing.blogspot.com/">NorCal <span class="caps">MTB</span> Racing Blog</a> and occasionally gets to ride his bike.</p>
+
+<h2>Contact</h2>
+		<p>
+Please send any comments or questions about this widget to norcalmtbracing AT gmail D0T com (and remember to replace AT with @ and D0T with .)
+		</p>
+
+
+<h2>Download</h2>
+	<p>The most current version of MTBcalendar widget is 0.43 and is available at <a href="releases/mtbcalendar_v045.zip">http://slashk.github.com/mtb-calendar-widget/releases/mtbcalendar_v045.zip</a>.</p>
+
+<h2>Source</h2>
+	<p>This widget was created with Apple&#8217;s <a href="http://www.apple.com/macosx/developertools/dashcode.html">Dashcode</a> and follows most of their setup conventions. However, I have added the <a href="http://www.prototypejs.org/">Prototype javascript library</a> (version 1.6.0.3).</p>
+	<p>The source is available via my <a href="http://slashk.github.com/">GitHub account</a>. You can clone the project with <a href="http://git-scm.com">Git</a> by running:
+      <pre>$ git clone git://github.com/slashk/mtb-calendar-widget</pre>
+    </p>
+
+	<h2>Changelog</h2>
 	<ul>
-		<li>minor cosmetic change on version number</li>
-	</ul></li>
-</ul>
-<ul>
-	<li>version 0.42 (December 19th, 2008) &#8220;stutter&#8221;
+		<li>version 0.45 (December 25th, 2008) "forgotten"
+			<ul>
+				<li>added in forgotten midwest and east regions (sorry guys)</li>
+				<li>added new icon and graphics (this actually came v0.44)</li>
+				<li>version 0.44 was unreleased -- </li>
+				<li>changed version button to go to github documentation page</li>
+				</ul>	
+				</li>
+				</ul>
 	<ul>
-		<li>fixed double json request problem</li>
-		<li>fixed 10 minute refresh bug (not saving last time)</li>
-		<li>small streamlining of code</li>
-	</ul></li>
-</ul>
-<ul>
-	<li>version 0.41 (December 13th, 2008) &#8220;shorty&#8221;
+		<li>version 0.43 (December 19th, 2008)
+		<ul>
+			<li>minor cosmetic change on version number</li>
+		</ul></li>
+	</ul>
 	<ul>
-		<li>revamped interface to occupy less screen real estate</li>
-		<li>added Hawaii and Alaska to regions (sorry guys!)</li>
-	</ul></li>
-</ul>
-<ul>
-	<li>version 0.4 (December 10th, 2008)
+		<li>version 0.42 (December 19th, 2008) &#8220;stutter&#8221;
+		<ul>
+			<li>fixed double json request problem</li>
+			<li>fixed 10 minute refresh bug (not saving last time)</li>
+			<li>small streamlining of code</li>
+		</ul></li>
+	</ul>
 	<ul>
-		<li>added instructions and button to the back</li>
-		<li>minor stylistic changes</li>
-	</ul></li>
-</ul>
-<ul>
-	<li>version 0.3 (December 3rd, 2008) BETA1
+		<li>version 0.41 (December 13th, 2008) &#8220;shorty&#8221;
+		<ul>
+			<li>revamped interface to occupy less screen real estate</li>
+			<li>added Hawaii and Alaska to regions (sorry guys!)</li>
+		</ul></li>
+	</ul>
 	<ul>
-		<li>fixed refresh issues. now refreshes every 15 minutes.</li>
-		<li>fixed bug on scrollbar refreshing</li>
-		<li>fixed empty calendar issues. now includes text.</li>
-		<li>added all regions to popup menu</li>
-		<li>streamlined code</li>
-	</ul></li>
-</ul>
-<ul>
-	<li>version 0.2 (December 1st, 2008)
+		<li>version 0.4 (December 10th, 2008)
+		<ul>
+			<li>added instructions and button to the back</li>
+			<li>minor stylistic changes</li>
+		</ul></li>
+	</ul>
 	<ul>
-		<li>icon ! (<em>but it sucks</em>)</li>
-		<li>back popup menu works !</li>
-		<li>correctly initialises preferences</li>
-		<li>weblinks work !</li>
-		<li>it&#8217;s green !</li>
-	</ul></li>
-</ul>
-<ul>
-	<li>version 0.1 (November 28th, 2008)
+		<li>version 0.3 (December 3rd, 2008) BETA1
+		<ul>
+			<li>fixed refresh issues. now refreshes every 15 minutes.</li>
+			<li>fixed bug on scrollbar refreshing</li>
+			<li>fixed empty calendar issues. now includes text.</li>
+			<li>added all regions to popup menu</li>
+			<li>streamlined code</li>
+		</ul></li>
+	</ul>
 	<ul>
-		<li>basic creation &#8212; only moderately usable</li>
-		<li>no savable preferences or icon</li>
-	</ul></li>
-</ul>
+		<li>version 0.2 (December 1st, 2008)
+		<ul>
+			<li>icon ! (<em>but it sucks</em>)</li>
+			<li>back popup menu works !</li>
+			<li>correctly initialises preferences</li>
+			<li>weblinks work !</li>
+			<li>it&#8217;s green !</li>
+		</ul></li>
+	</ul>
+	<ul>
+		<li>version 0.1 (November 28th, 2008)
+		<ul>
+			<li>basic creation &#8212; only moderately usable</li>
+			<li>no savable preferences or icon</li>
+		</ul></li>
+	</ul>
+      
+    <div class="footer">
+      get the source code on GitHub: <a href="http://github.com/slashk/mtb-calendar-widget">slashk/mtb-calendar-widget</a>
+    </div>
+    
+  </div>
+
+  
+</body>
+</html>
+
