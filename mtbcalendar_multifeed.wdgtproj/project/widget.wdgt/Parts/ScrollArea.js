@@ -34,21 +34,11 @@ function CreateScrollArea(elementOrID, spec)
 		var scrollbarSize = spec.scrollbarDivSize == undefined ? 0 : spec.scrollbarDivSize;;
 		
 		// Associate or create the content area element
-        var childIndex;
-        for (childIndex=0; childIndex<scrollAreaElement.childNodes.length; childIndex++) {
-            var child = scrollAreaElement.childNodes[childIndex];
-            if (child.nodeType == Node.ELEMENT_NODE) {
-                contentElement = child;
-                break;
-            }
-        }
+        var contentElement = scrollAreaElement.children[0] || document.createElement("div");
+        
         // Remove all other child elements
-        while (scrollAreaElement.childNodes.length > childIndex+1) {
+        while (scrollAreaElement.children.length > 1)
             scrollAreaElement.removeChild(scrollAreaElement.lastChild);
-        }
-		if (contentElement == null || contentElement == undefined) {
-			contentElement = document.createElement("div");
-		}
         
 		style = contentElement.style;
 		style.position = "absolute";
@@ -75,7 +65,7 @@ function CreateScrollArea(elementOrID, spec)
 		// Create the vertical scroll bar
 		if (hasVerticalScrollbar) {
 			element = document.createElement("div");
-			element.className = "apple-no-children apple-remove";
+			element.className = "apple-no-children apple-remove apple-hidden";
 			style = element.style;
 			style.position = "absolute";
 			style.width = scrollbarSize + "px";
@@ -92,7 +82,7 @@ function CreateScrollArea(elementOrID, spec)
 		// Create the horizontal scroll bar
 		if (hasHorizontalScrollbar) {
 			element = document.createElement("div");
-			element.className = "apple-no-children apple-remove";
+			element.className = "apple-no-children apple-remove apple-hidden";
 			style = element.style;
 			style.position = "absolute";
 			style.width = "auto";

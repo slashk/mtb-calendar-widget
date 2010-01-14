@@ -22,17 +22,6 @@ a {
     height: auto;
 }
 
-#info {
-    position: absolute;
-    right: 15px;
-    bottom: 18px;
-    width: 13px;
-    height: 13px;
-    left: 246px;
-    top: 189px;
-    opacity: 1;
-}
-
 #back {
     display: none;
 }
@@ -58,12 +47,12 @@ a {
 
 #backDevelopedWith {
     position: absolute;
-    width: 77px;
-    height: 25px;
-    top: 149px;
-    right: 102px;
+    height: 24px;
+    width: 75px;
+    top: 175px;
+    right: 103px;
     margin-left: auto;
-    left: 101px;
+    left: 102px;
     margin-right: auto;
 }
 
@@ -79,12 +68,7 @@ a {
     position: absolute;
     width: 199px;
     left: 42px;
-    top: 89px;
-}
-
-#div {
-    bottom: 6px;
-    left: 217px;
+    top: 77px;
 }
 
 #title {
@@ -92,16 +76,17 @@ a {
     text-overflow: ellipsis;
     overflow: hidden;
     color: rgb(255, 255, 255);
-    font-weight: bold;
-    top: 13px;
-    left: 31px;
-    right: 56px;
-    width: auto;
-    bottom: 183px;
-    height: auto;
     text-shadow: none;
     font-size: 14pt;
+    font-weight: bold;
+    font-style: normal;
     font-family: 'Helvetica Neue';
+    top: 12px;
+    left: 130px;
+    right: 105px;
+    width: auto;
+    bottom: 184px;
+    height: auto;
 }
 
 #bottomRectangleShape {
@@ -110,19 +95,6 @@ a {
     height: 23px;
     left: 12px;
     top: 185px;
-}
-
-#scrollArea {
-    position: absolute;
-    font-family: HelveticaNeue;
-    margin-left: 5px;
-    background-color: rgb(255, 255, 255);
-    color: rgb(25, 53, 11);
-    font-size: 10pt;
-    left: 9px;
-    height: 149px;
-    top: 37px;
-    width: 251px;
 }
 
 #option {
@@ -167,12 +139,6 @@ a {
     top: 0px;
 }
 
-#option7 {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-}
-
 #option8 {
     position: absolute;
     left: 0px;
@@ -200,11 +166,11 @@ a {
     position: absolute;
     margin-top: 0px;
     color: rgb(255, 255, 255);
-    left: 40px;
     text-align: center;
     font-size: 8pt;
     top: 18px;
-    right: 39px;
+    left: 19px;
+    right: 16px;
     width: auto;
     bottom: 149px;
     height: auto;
@@ -215,8 +181,8 @@ a {
     right: auto;
     bottom: auto;
     margin-top: 0px;
-    left: 76px;
-    top: 118px;
+    left: 75px;
+    top: 143px;
 }
 
 #glassbutton1 {
@@ -226,11 +192,6 @@ a {
     margin-top: 0px;
     top: 176px;
     left: 29px;
-}
-
-#content {
-    bottom: 0px;
-    right: 22px;
 }
 
 #text {
@@ -243,12 +204,113 @@ a {
     text-shadow: rgb(0, 0, 0) 0px 0px 0px;
     font-weight: bold;
     font-family: 'Helvetica Neue';
-    left: 40px;
     font-size: 9pt;
     line-height: 14px;
-    top: 74px;
+    left: 40px;
+    top: 62px;
     right: 41px;
     width: auto;
-    bottom: 128px;
+    bottom: 140px;
+    height: auto;
+}
+
+#infobutton {
+    width: 13px;
+    height: 13px;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    left: 243px;
+    top: 189px;
+}
+
+#scrollArea {
+    color: black;
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    top: 38px;
+    padding: 0px;
+    height: 148px;
+    width: 255px;
+    left: 13px;
+}
+
+#content {
+    padding: 2px;
+}
+
+#checkbox {
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    height: 18px;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    width: 129px;
+    left: 76px;
+    top: 103px;
+}
+
+#div {
+    position: absolute;
+    top: 2px;
+    left: 18px;
+    text-align: left;
+    vertical-align: middle;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    right: 2px;
+    width: auto;
+    bottom: -1px;
+    height: auto;
+}
+
+#checkbox1 {
+    font-family: HelveticaNeue;
+    font-size: 10pt;
+    height: 18px;
+    position: absolute;
+    right: auto;
+    bottom: auto;
+    margin-top: 0px;
+    width: 129px;
+    left: 77px;
+    top: 121px;
+}
+
+#div2 {
+    position: absolute;
+    top: 2px;
+    left: 18px;
+    text-align: left;
+    vertical-align: middle;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    right: 2px;
+    width: auto;
+    bottom: -1px;
+    height: auto;
+}
+
+#title1 {
+    position: absolute;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    text-shadow: none;
+    font-size: 14pt;
+    right: 194px;
+    min-height: 24px;
+    width: 72px;
+    top: 13px;
+    font-family: HelveticaNeue-Light;
+    left: 173px;
+    bottom: 183px;
     height: auto;
 }
