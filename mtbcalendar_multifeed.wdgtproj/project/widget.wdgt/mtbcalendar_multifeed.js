@@ -6,31 +6,35 @@ var currentRegionParam = "";
 var currentRegionName = "";
 var source = "dataSource";
 
+// helper function to load preferences like region
 function loadPreferences(key) {
 	return widget.preferenceForKey(widget.identifier + "-" + key);
 }
 
+// helper function to save preferences like region
+function savePreferences(key, value) {
+	widget.setPreferenceForKey(value, widget.identifier + "-" + key);
+}
+
+// helper function to open the main website
 function openWebsite () {
     var url = "http://www.mtbcalendar.com/";
     widget.openURL(url);
 }
 
+// helper function to open the code repository
 function openRepo () {
     var repo = "http://slashk.github.com/mtb-calendar-widget/";
     widget.openURL(repo);
 }
 
+// helper function to open apple's dashcode site
 function openDashcode () {
     var url = "http://developer.apple.com/tools/dashcode/";
     widget.openURL(url);
 }
 
-
-function savePreferences(key, value) {
-	widget.setPreferenceForKey(value, widget.identifier + "-" + key);
-}
-
-// takes event array and convert them to text/html for the scrollArea
+// takes json event array and parses/formats them to text/html for the scrollArea
 function parseEvents(events) {
     var outputHTML = "";
     var baseurl = "http://www.mtbcalendar.com/events/";
@@ -49,15 +53,11 @@ function parseEvents(events) {
         outputHTML = "No upcoming events. Visit <span style=\"color:red;\" onclick=\'widget.openURL(\"http://www.mtbcalendar.com\")\'>MTB Calendar</span> and add your events.";
     }
     
-	// updating scrollarea
-    //var scrollArea = document.getElementById("scrollArea");
-    //scrollArea.object.content.innerHTML = outputHTML;
-    //scrollArea.object.refresh();
     updateScrollArea(outputHTML);
 }
 
+// updating scrollArea on front of widget with new event list
 function updateScrollArea(content) {
-	// updating scrollarea
     var scrollArea = document.getElementById("scrollArea");
     scrollArea.object.content.innerHTML = content;
     scrollArea.object.refresh();
@@ -67,9 +67,9 @@ function updateScrollArea(content) {
 // update preferences and front page regionName on change
 function updatePrefs() {
     savePreferences("region", popup.value);
-    var checkboxValue = document.getElementById("formatInput");	// replace with ID of checkbox
+    var checkboxValue = document.getElementById("formatInput");
     savePreferences("showFormat", checkboxValue.checked);
-    var checkboxValue = document.getElementById("locationInput");	// replace with ID of checkbox
+    var checkboxValue = document.getElementById("locationInput");	
     savePreferences("showLocation", checkboxValue.checked);
 }
 
@@ -82,22 +82,19 @@ function load()
     widget.setPreferenceForKey(0, widget.identifier + "-" + "showFormat");
     widget.setPreferenceForKey(1, widget.identifier + "-" + "showLocation");
     setupParts();
+    // change the region name on bottom of front
     document.getElementById("regionName").innerHTML = loadPreferences("region");
+    // setup datasource for widget
     dashcodeDataSources = dashcode.getDataSource(source);
-    //refreshEvents();
 }
 
+// change the datasource parameters to trigger scrollArea refresh
 function refreshEvents() {
-        //dashcodeDataSources = dashcode.getDataSource("dataSource");
-    //dashcodeDataSources = dashcode.getDataSource(source);
-        // instead of this
-        //popup.value = feedURL;
-        // whe need to change the datasource (probably by changing the parameters like this:
-        // need to use the Data Source Parameters Change to switch regions now
-        // dataSource.setValueForKeyPath("Apple", "parameters.category");
+    // change the parameter to trigger refresh
     dashcodeDataSources.setValueForKeyPath(loadPreferences("region"), "parameters.region");
+    // wait 2 seconds before trying to parse -- otherwise refresh leaves us with empty array
     setTimeout('parseEvents(dashcodeDataSources.__content)', 2000);
-    //parseEvents(dashcodeDataSources.__content);
+    // start animation that will be stopped by parseEvents()
     startAnimation("scrollArea");
 }
 
@@ -199,17 +196,6 @@ function showFront(event)
     document.getElementById("regionName").innerHTML = loadPreferences("region");
     refreshEvents();
 }
-
-DC.transformer.EventList= Class.create(DC.ValueTransformer, {
-    transformedValue: function(array) {
-        if (DC.typeOf(array.__content) == 'array') {
-            return parseEvents(array.__content);
-        }
-        
-        return array;
-    }
-});
-
 
 // Initialize the Dashboard event handlers
 if (window.widget) {
