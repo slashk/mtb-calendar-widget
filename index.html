@@ -39,8 +39,8 @@
   <div id="container">
 
     <div class="download">
-      <a href="release/mtbcalendar_v045.zip">
-        <img border="0" width="96" src="images/icon_128x128.png"><br />download v0.45</a>
+      <a href="">
+        <img border="0" width="96" src="images/icon_128x128.png"><br />download v1.0</a>
     </div>
 
 
@@ -50,24 +50,24 @@
 	</h1>
 
     <div class="description">
-      keep track of local MTB races on your Mac OS X Dashboard
+      Find local MTB races via your Mac OS X Dashboard
     </div>
 
     	<p>This is a little dashboard widget which lets you see regional <span class="caps">MTB</span> race calendars from the <a href="http://www.mtbcalendar.com/" target="_blank"><span class="caps">MTB</span> Calendar</a> website.</p>
 
 <h2>Preview</h2>
-				<p><img src="images/mtbcal-widget-front-v041.png" title="front" alt="front" />
-				<img src="images/mtbcal-widget-back-v041.png" title="back" alt="back" /></p>
+				<p><img src="images/mtbcal-widget-front-v1-0.png" title="front" alt="front" />
+				<img src="images/mtbcal-widget-back-v1-0.png" title="back" alt="back" /></p>
 
 <h2>Installation</h2>
 	<p>Installing the widget should be dead simple on a Mac OS X machine running 10.4.3 or higher.</p>
-	<p>If you&#8217;re using Safari, click the download link. When the widget download is complete, show Dashboard, click the Plus sign to display the Widget Bar and click the widget&#8217;s icon in the Widget Bar to open it. If you&#8217;re using a browser other than Safari, click the download link. When the widget download is complete,  unarchive it (click twice on it) and place it in /Library/Widgets/ in your home folder. show Dashboard, click  the Plus sign to display the Widget Bar and click the widget&#8217;s icon in the Widget Bar to open it. ALternately, you can just double-click on the uncompressed icon and Dashboard will prompt you to install it.</p>
+	<p>If you&#8217;re using Safari, click the download link. When the widget download is complete, show Dashboard, click the Plus sign to display the Widget Bar and click the widget&#8217;s icon in the Widget Bar to open it. If you&#8217;re using a browser other than Safari, click the download link. When the widget download is complete,  unarchive it (click twice on it) and place it in /Library/Widgets/ in your home folder. show Dashboard, click  the Plus sign to display the Widget Bar and click the widget&#8217;s icon in the Widget Bar to open it. Alternately, you can just double-click on the uncompressed icon and Dashboard will prompt you to install it.</p>
 
 <p>Please note, that this widget is only supported on Mac OS X. I may be creating a XP or Google or Yahoo! widget if there is any interest.</p>
 
 <h2>Usage</h2>
 		<p>This widget will allow you to see upcoming MTB events that have been entered on the <a href="http://www.mtbcalendar.com">mtbcalendar.com</a> site.</p>
-		<p>The only preference setting on this widget is accessible via the back panel  (click the (i) icon in the lower right hand corner to show). It is a pulldown  menu which lists different regions so that you can find races closest to where  you live. It defaults to &#8220;Northern California&#8221; (<em>hells yeah</em>) but you can set  it to any region you choose. The regions are mostly small cluster of states, but some states are split (like California).</p>
+		<p>On the back of the widget (click the (i) in the lower right corner to see the back), there are three options: <ul><li>A pulldown menu which lists different regions so that you can find races closest to where  you live. It defaults to &#8220;Northern California&#8221; (<em>hells yeah</em>) but you can set  it to any region you choose. The regions are mostly small cluster of states, but some states are split (like California).</li><li>"Race Type" which shows the types of races (XC, DH, TT, etc.) at each event</li><li>"Event Location" which shows event's state</li></ul></p>
 		<p>To see more details about any race event, simply click on the events name on the  front panel and it will take you to the appropriate page on the <a href="http://www.mtbcalendar.com/"><span class="caps">MTB</span> Calendar</a> website.</p>
 
 
@@ -88,7 +88,6 @@
 			<li>East (6): &#8216;VA&#8217;, &#8216;WV&#8217;, &#8216;DE&#8217;, &#8216;MD&#8217;, &#8216;NJ&#8217;, &#8216;PA&#8217;</li>
 			<li>Pacific Islands (1): &#8216;HI&#8217;</li>
 			<li>Alaska (1): &#8216;AK&#8217;</li>
-			<li>Canada (5): &#8216;BC&#8217;, &#8216;AB&#8217;, &#8216;ON&#8217;, &#8216;NS&#8217;, &#8216;MB&#8217;</li>
 		</ul>
 
 <h2>Author</h2>
@@ -101,15 +100,25 @@ Please send any comments or questions about this widget to norcalmtbracing AT gm
 
 
 <h2>Download</h2>
-	<p>The most current version of MTBcalendar widget is available at <a href="release/mtbcalendar_v045.zip">http://slashk.github.com/mtb-calendar-widget/release/mtbcalendar_v045.zip</a>.</p>
+	<p>The most current version of MTBcalendar widget is available at <a href="xxxx">xxxx</a>.</p>
 
 <h2>Source</h2>
-	<p>This widget was created with Apple&#8217;s <a href="http://www.apple.com/macosx/developertools/dashcode.html">Dashcode</a> and follows most of their setup conventions. However, I have added the <a href="http://www.prototypejs.org/">Prototype javascript library</a> (version 1.6.0.3).</p>
+	<p>This widget was created with Apple&#8217;s <a href="http://www.apple.com/macosx/developertools/dashcode.html">Dashcode</a> and follows most of their setup conventions. </p>
 	<p>The source is available via my <a href="http://slashk.github.com/">GitHub account</a>. You can clone the project with <a href="http://git-scm.com">Git</a> by running:
       <pre>$ git clone git://github.com/slashk/mtb-calendar-widget</pre>
     </p>
 
 	<h2>Changelog</h2>
+<ul>
+	<li>version 1.0 (January 14th, 2010) "freebird"
+		<ul>
+			<li>complete overhaul of the code for new version of Dashcode</li>
+			<li>added options for location/state and/or race formats</li>
+			<li>added awesome animations during feed loading</li>
+			<li>updated document (this page)</li>
+			</ul>	
+			</li>
+			</ul>
 	<ul>
 		<li>version 0.45 (December 25th, 2008) "forgotten"
 			<ul>
