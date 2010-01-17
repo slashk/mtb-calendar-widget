@@ -32,16 +32,16 @@ a {
     top: 0px;
     left: 0px;
     right: 0px;
-    bottom: 0px;
     width: auto;
+    bottom: 0px;
     height: auto;
 }
 
 #done {
     position: absolute;
-    right: 21px;
+    right: 22px;
     margin-left: auto;
-    bottom: 21px;
+    bottom: 26px;
     margin-top: auto;
 }
 
@@ -58,17 +58,17 @@ a {
 
 #topRectangleShape {
     position: absolute;
-    width: 256px;
     top: 12px;
     left: 12px;
     height: 26px;
+    width: 257px;
 }
 
 #popup {
     position: absolute;
-    width: 199px;
-    left: 42px;
-    top: 77px;
+    width: 165px;
+    left: 86px;
+    top: 74px;
 }
 
 #title {
@@ -82,10 +82,10 @@ a {
     font-style: normal;
     font-family: 'Helvetica Neue';
     top: 12px;
-    left: 24px;
-    right: 211px;
+    left: 19px;
+    right: 216px;
     width: auto;
-    bottom: 188px;
+    bottom: 190px;
     height: auto;
 }
 
@@ -163,12 +163,12 @@ a {
     margin-top: 0px;
     color: rgb(255, 255, 255);
     text-align: center;
-    font-size: 8pt;
-    top: 18px;
     left: 19px;
+    font-size: 9pt;
+    top: 24px;
     right: 16px;
     width: auto;
-    bottom: 149px;
+    bottom: 152px;
     height: auto;
 }
 
@@ -178,7 +178,7 @@ a {
     bottom: auto;
     margin-top: 0px;
     left: 75px;
-    top: 143px;
+    top: 144px;
 }
 
 #glassbutton1 {
@@ -196,17 +196,17 @@ a {
     position: absolute;
     margin-top: 0px;
     color: rgb(255, 255, 255);
-    text-align: center;
     text-shadow: rgb(0, 0, 0) 0px 0px 0px;
     font-weight: bold;
     font-family: 'Helvetica Neue';
     font-size: 9pt;
     line-height: 14px;
-    left: 40px;
-    top: 62px;
-    right: 41px;
+    text-align: left;
+    left: 37px;
+    top: 77px;
+    right: 189px;
     width: auto;
-    bottom: 140px;
+    bottom: 128px;
     height: auto;
 }
 
@@ -247,8 +247,8 @@ a {
     bottom: auto;
     margin-top: 0px;
     width: 129px;
-    left: 76px;
-    top: 103px;
+    left: 37px;
+    top: 99px;
 }
 
 #div {
@@ -274,7 +274,7 @@ a {
     bottom: auto;
     margin-top: 0px;
     width: 129px;
-    left: 77px;
+    left: 37px;
     top: 121px;
 }
 
@@ -304,8 +304,8 @@ a {
     width: 72px;
     font-family: HelveticaNeue-Light;
     top: 13px;
-    left: 67px;
-    bottom: 187px;
+    left: 62px;
+    bottom: 188px;
     height: auto;
 }
 
@@ -327,4 +327,10 @@ a {
 
 .selected #loading {
     color: white;
+}
+
+#front {
+    -khtml-margin-top-collapse: separate;
+    -khtml-margin-bottom-collapse: separate;
+    min-height: 224px;
 }

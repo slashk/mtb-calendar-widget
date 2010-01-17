@@ -12,8 +12,8 @@ var dashcodePartSpecs = {
     "loading": { "text": "Loading Events ...", "view": "DC.Text" },
     "regionName": { "text": "Text", "view": "DC.Text" },
     "scrollArea": { "autoHideScrollbars": true, "creationFunction": "CreateScrollArea", "hasVerticalScrollbar": true, "scrollbarDivSize": 18, "scrollbarMargin": 6, "spacing": 4 },
-    "text": { "text": "Choose Region", "view": "DC.Text" },
-    "text1": { "text": "This widget displays upcoming MTB racing events from the mtbcalendar.com website. Click on any race name to see complete race details.", "view": "DC.Text" },
+    "text": { "text": "Region", "view": "DC.Text" },
+    "text1": { "text": "This widget displays upcoming MTB events from the mtbcalendar.com website. Click on any race name to see complete race details.", "view": "DC.Text" },
     "title": { "text": "MTB", "view": "DC.Text" },
     "title1": { "text": "calendar", "view": "DC.Text" },
     "topRectangleShape": { "creationFunction": "CreateShape", "leftImageWidth": 12, "rightImageWidth": 12, "view": "DC.View" }
