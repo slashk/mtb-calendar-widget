@@ -32,8 +32,8 @@ a {
     top: 0px;
     left: 0px;
     right: 0px;
-    width: auto;
     bottom: 0px;
+    width: auto;
     height: auto;
 }
 
@@ -81,11 +81,11 @@ a {
     font-weight: bold;
     font-style: normal;
     font-family: 'Helvetica Neue';
-    top: 12px;
     left: 130px;
+    top: 13px;
     right: 105px;
     width: auto;
-    bottom: 184px;
+    bottom: 183px;
     height: auto;
 }
 
@@ -94,7 +94,7 @@ a {
     width: 256px;
     height: 23px;
     left: 12px;
-    top: 185px;
+    top: 189px;
 }
 
 #option {
@@ -153,8 +153,8 @@ a {
     position: absolute;
     margin-top: 0px;
     color: rgb(255, 255, 255);
-    top: 189px;
     left: 31px;
+    top: 192px;
     width: auto;
     height: auto;
 }
@@ -222,7 +222,7 @@ a {
     bottom: auto;
     margin-top: 0px;
     left: 243px;
-    top: 189px;
+    top: 193px;
 }
 
 #scrollArea {
@@ -233,11 +233,11 @@ a {
     right: auto;
     bottom: auto;
     margin-top: 0px;
-    top: 38px;
     padding: 0px;
-    height: 148px;
-    width: 255px;
-    left: 13px;
+    left: 14px;
+    width: 252px;
+    height: 150px;
+    top: 38px;
 }
 
 #content {
@@ -308,9 +308,29 @@ a {
     right: 194px;
     min-height: 24px;
     width: 72px;
-    top: 13px;
     font-family: HelveticaNeue-Light;
     left: 173px;
-    bottom: 183px;
+    top: 14px;
+    bottom: 182px;
     height: auto;
+}
+
+#loading {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 0px;
+    left: 54px;
+    top: 96px;
+    right: 55px;
+    width: auto;
+    bottom: 96px;
+    height: auto;
+    text-shadow: rgb(191, 191, 191) 2px 2px 1px;
+    font-size: 14pt;
+    font-family: 'Helvetica Neue';
+}
+
+.selected #loading {
+    color: white;
 }

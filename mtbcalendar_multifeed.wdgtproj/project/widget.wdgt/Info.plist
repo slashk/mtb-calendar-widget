@@ -4,6 +4,8 @@
 <dict>
 	<key>AllowFileAccessOutsideOfWidget</key>
 	<true/>
+	<key>AllowInternetPlugins</key>
+	<true/>
 	<key>AllowNetworkAccess</key>
 	<true/>
 	<key>CFBundleDevelopmentRegion</key>
@@ -23,7 +25,7 @@
 	<key>CloseBoxInsetY</key>
 	<integer>15</integer>
 	<key>Height</key>
-	<integer>220</integer>
+	<integer>224</integer>
 	<key>MainHTML</key>
 	<string>mtbcalendar_multifeed.html</string>
 	<key>Width</key>

@@ -135,17 +135,23 @@ function sync()
 }
 
 function startAnimation(element) {
-    // Values you provide
+    // fade out events
     var itemToFadeOut = document.getElementById(element);	
-    // Fading code
-    var fadeHandler = function(a, c, s, f){ itemToFadeOut.style.opacity = c; };
-    new AppleAnimator(500, 13, 1.0, 0.0, fadeHandler).start();
+    itemToFadeOut.style.visibility = "hidden";
+    //var fadeHandler = function(a, c, s, f){ itemToFadeOut.style.opacity = c; };
+    //new AppleAnimator(1000, 13, 0.0, 1.0, fadeIndicatorHandler).start();
+    // fade in loading text
+    var itemToFadeIn = document.getElementById('loading');
+    itemToFadeIn.style.visibility = "visible";
 }
 
 function stopAnimation(element) {
-    // Values you provide
+    var itemToFadeOut = document.getElementById('loading');	
+    itemToFadeOut.style.visibility = "hidden";
+    // fade in events
     var itemToFadeIn = document.getElementById(element);
-    // Fading code
+    itemToFadeIn.style.opacity = 0;
+    itemToFadeIn.style.visibility = "visible";
     var fadeHandler = function(a, c, s, f){ itemToFadeIn.style.opacity = c; };
     new AppleAnimator(1000, 13, 0.0, 1.0, fadeHandler).start();
 }
