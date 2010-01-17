@@ -81,20 +81,12 @@ a {
     font-weight: bold;
     font-style: normal;
     font-family: 'Helvetica Neue';
-    left: 130px;
-    top: 13px;
-    right: 105px;
+    top: 12px;
+    left: 24px;
+    right: 211px;
     width: auto;
-    bottom: 183px;
+    bottom: 188px;
     height: auto;
-}
-
-#bottomRectangleShape {
-    position: absolute;
-    width: 256px;
-    height: 23px;
-    left: 12px;
-    top: 189px;
 }
 
 #option {
@@ -153,9 +145,13 @@ a {
     position: absolute;
     margin-top: 0px;
     color: rgb(255, 255, 255);
-    left: 31px;
-    top: 192px;
+    text-align: right;
+    white-space: nowrap;
+    left: 151px;
+    top: 17px;
+    right: 38px;
     width: auto;
+    bottom: 193px;
     height: auto;
 }
 
@@ -219,10 +215,8 @@ a {
     height: 13px;
     position: absolute;
     right: auto;
-    bottom: auto;
-    margin-top: 0px;
-    left: 243px;
-    top: 193px;
+    top: 17px;
+    left: 249px;
 }
 
 #scrollArea {
@@ -231,13 +225,13 @@ a {
     font-size: 10pt;
     position: absolute;
     right: auto;
-    bottom: auto;
     margin-top: 0px;
     padding: 0px;
     left: 14px;
     width: 252px;
-    height: 150px;
-    top: 38px;
+    top: 39px;
+    height: 169px;
+    margin-bottom: auto;
 }
 
 #content {
@@ -309,9 +303,9 @@ a {
     min-height: 24px;
     width: 72px;
     font-family: HelveticaNeue-Light;
-    left: 173px;
-    top: 14px;
-    bottom: 182px;
+    top: 13px;
+    left: 67px;
+    bottom: 187px;
     height: auto;
 }
 
@@ -321,14 +315,14 @@ a {
     position: absolute;
     margin-top: 0px;
     left: 54px;
-    top: 96px;
-    right: 55px;
-    width: auto;
-    bottom: 96px;
-    height: auto;
     text-shadow: rgb(191, 191, 191) 2px 2px 1px;
     font-size: 14pt;
     font-family: 'Helvetica Neue';
+    top: 108px;
+    right: 55px;
+    width: auto;
+    bottom: 85px;
+    height: auto;
 }
 
 .selected #loading {

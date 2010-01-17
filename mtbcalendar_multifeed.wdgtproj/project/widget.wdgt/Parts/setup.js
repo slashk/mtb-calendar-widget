@@ -5,7 +5,6 @@
  code generator otherwise the changes will be lost.
  */
 var dashcodePartSpecs = {
-    "bottomRectangleShape": { "creationFunction": "CreateShape", "leftImageWidth": 12, "rightImageWidth": 12, "view": "DC.View" },
     "done": { "creationFunction": "CreateGlassButton", "onclick": "showFront", "text": "Done", "view": "DC.View" },
     "glassbutton": { "creationFunction": "CreateGlassButton", "onclick": "openWebsite", "text": "Visit MTBcalendar", "view": "DC.View" },
     "glassbutton1": { "creationFunction": "CreateGlassButton", "onclick": "openRepo", "text": "v1.0", "view": "DC.View" },
@@ -19,6 +18,7 @@ var dashcodePartSpecs = {
     "title1": { "text": "calendar", "view": "DC.Text" },
     "topRectangleShape": { "creationFunction": "CreateShape", "leftImageWidth": 12, "rightImageWidth": 12, "view": "DC.View" }
 };
+
 
 
 
