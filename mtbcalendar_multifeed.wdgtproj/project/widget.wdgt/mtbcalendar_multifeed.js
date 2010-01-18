@@ -122,6 +122,8 @@ function show()
     // Refresh feed if 15 minutes have passed since the last update
     var now = (new Date).getTime();
     if ((now - lastUpdated) > 15 * 60 * 1000) {
+        // go low-level and refresh the datasource
+        dashcodeDataSources.performQuery.bindAndDelay(dashcodeDataSources,0);
         refreshEvents();
         lastUpdated = now;
     }
