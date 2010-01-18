@@ -7,7 +7,7 @@
 var dashcodePartSpecs = {
     "done": { "creationFunction": "CreateGlassButton", "onclick": "showFront", "text": "Done", "view": "DC.View" },
     "glassbutton": { "creationFunction": "CreateGlassButton", "onclick": "openWebsite", "text": "Visit MTBcalendar", "view": "DC.View" },
-    "glassbutton1": { "creationFunction": "CreateGlassButton", "onclick": "openRepo", "text": "v1.0", "view": "DC.View" },
+    "glassbutton1": { "creationFunction": "CreateGlassButton", "onclick": "openRepo", "text": "v1.1.1", "view": "DC.View" },
     "infobutton": { "backgroundStyle": "black", "creationFunction": "CreateInfoButton", "foregroundStyle": "white", "frontID": "front", "onclick": "showBack" },
     "loading": { "text": "Loading Events ...", "view": "DC.Text" },
     "regionName": { "text": "Text", "view": "DC.Text" },
@@ -18,6 +18,7 @@ var dashcodePartSpecs = {
     "title1": { "text": "calendar", "view": "DC.Text" },
     "topRectangleShape": { "creationFunction": "CreateShape", "leftImageWidth": 12, "rightImageWidth": 12, "view": "DC.View" }
 };
+
 
 
 

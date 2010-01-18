@@ -129,6 +129,12 @@ function show()
     }
 }
 
+function refreshDataSource() {
+    // go low-level and refresh the datasource without changing parameters
+    dashcodeDataSources.performQuery.bindAndDelay(dashcodeDataSources,0);
+    refreshEvents();
+}
+
 // Function: sync()
 // Called when the widget has been synchronized with .Mac
 function sync()

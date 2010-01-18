@@ -25,10 +25,10 @@
 	<key>CloseBoxInsetY</key>
 	<integer>18</integer>
 	<key>Height</key>
-	<integer>224</integer>
+	<integer>234</integer>
 	<key>MainHTML</key>
 	<string>mtbcalendar_multifeed.html</string>
 	<key>Width</key>
-	<integer>280</integer>
+	<integer>288</integer>
 </dict>
 </plist>
