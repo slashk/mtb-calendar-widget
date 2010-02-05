@@ -2,6 +2,8 @@
 // You may edit this file to customize your Dashboard widget.
 
 var lastUpdated = 0;       // Track last refresh time to avoid excessive updates
+var updateIntervalInHours = 4; // hours between updates CHANGE HERE
+var updateIntervalInTicks = updateIntervalInHours * 60 * 60 * 1000; // ticks between updates DON'T CHANGE!
 var currentRegionParam = "";
 var currentRegionName = "";
 var source = "dataSource";
@@ -121,7 +123,7 @@ function show()
 {
     // Refresh feed if 15 minutes have passed since the last update
     var now = (new Date).getTime();
-    if ((now - lastUpdated) > 15 * 60 * 1000) {
+    if ((now - lastUpdated) > updateIntervalInTicks ) {
         // go low-level and refresh the datasource
         dashcodeDataSources.performQuery.bindAndDelay(dashcodeDataSources,0);
         refreshEvents();
