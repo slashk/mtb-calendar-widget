@@ -191,6 +191,11 @@ function showBack(event)
     front.style.display="none";
     back.style.display="block";
 
+    // set preferences values on back inputs
+    popup.value = loadPreferences("region");
+    formatInput.checked = loadPreferences("showFormat");
+    locationInput.checked = loadPreferences("showLocation");
+
     if (window.widget)
         setTimeout("widget.performTransition();", 0);
 }
