@@ -9,13 +9,16 @@ var currentRegionName = "";
 var source = "dataSource";
 
 // helper function to load preferences like region
+// returns undefined (no quotes) if key doesn't exist
 function loadPreferences(key) {
-	return widget.preferenceForKey(widget.identifier + "-" + key);
+	return widget.preferenceForKey(key);
 }
 
 // helper function to save preferences like region
 function savePreferences(key, value) {
-	widget.setPreferenceForKey(value, widget.identifier + "-" + key);
+    if (window.widget) {
+        widget.setPreferenceForKey(value, key);
+    }
 }
 
 // helper function to open the main website
@@ -80,12 +83,20 @@ function updatePrefs() {
 function load()
 {
     // set everything up for NorCal on first load
-    widget.setPreferenceForKey("NorCal", widget.identifier + "-" + "region");
-    widget.setPreferenceForKey(0, widget.identifier + "-" + "showFormat");
-    widget.setPreferenceForKey(1, widget.identifier + "-" + "showLocation");
+    if (loadPreferences("region") == undefined) {
+        savePreferences("region", "NorCal");        
+    };
+    if (loadPreferences("showLocation") == undefined) {
+        savePreferences("showLocation", 1);        
+    };
+    if (loadPreferences("showFormat") == undefined) {
+        savePreferences("showFormat", 0);        
+    };    
     setupParts();
     // change the region name on bottom of front
     document.getElementById("regionName").innerHTML = loadPreferences("region");
+    // change back parameters also
+    
     // setup datasource for widget
     dashcodeDataSources = dashcode.getDataSource(source);
 }
@@ -104,10 +115,7 @@ function refreshEvents() {
 // Called when the widget has been removed from the Dashboard
 function remove()
 {
-     // Remove any preferences as needed
-    widget.setPreferenceForKey(null, widget.identifier + "-" + "region");
-    widget.setPreferenceForKey(null, widget.identifier + "-" + "showFormat");
-    widget.setPreferenceForKey(null, widget.identifier + "-" + "showLocation");
+
 }
 
 // Function: hide()
